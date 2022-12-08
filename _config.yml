@@ -57,10 +57,10 @@ plugins:
 collections:
   prosjekt  :
     output        : true
-    permalink     : /:collection/:path/
+    permalink     : /:baseurl/:collection/:path/
   inspirasjon     :
     output        : true
-    permalink     : /:collection/:path/
+    permalink     : /:baseurl/:collection/:path/
 
 defaults:
   -
