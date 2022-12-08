@@ -1,0 +1,161 @@
+{%- include head.html -%}
+{%- include header.html -%}
+
+<body>
+  <main>
+    <div class="behaldar-enkeltprosjekt">
+
+      <section class="enkeltprosjekt-informasjon">
+        <h1 class="enkeltprosjekt-tittel">{{ page.TITTEL }}</h1>
+        <h2 class="enkeltprosjekt-undertittel">{{ page.UNDERTITTEL }}</h2>
+        <br>
+        <ul class="enkeltprosjekt-informasjon-liste">
+          <li>
+            <em class="enkeltprosjekt-tekst-trykk">Kva:
+            </em>
+            {{ page.KVA }}</li>
+          <li>
+            <em class="enkeltprosjekt-tekst-trykk">Kvar:
+            </em>
+            {{ page.KVAR }}</li>
+          <li>
+            <em class="enkeltprosjekt-tekst-trykk">Kategori:
+            </em>
+            {{ page.KATEGORI }}</li>
+          <li>
+            <em class="enkeltprosjekt-tekst-trykk">Når:
+            </em>
+            {{ page.NAAR }}</li>
+        </ul>
+        <br> <br>
+        <h2 class="enkeltprosjekt-underoverskrift">Kva er dette?</h1>
+        <br>
+        <p class="enkeltprosjekt-tekst-200">
+          {{ page.TEKST200 }}
+        </p>
+        <br>
+        <details class="enkeltprosjekt-verkty">
+          <summary class="enkeltprosjekt-verkty-felt">
+            <b class="enkeltprosjekt-verkty-felt-feit">Verkty</b>
+          </summary>
+          <ul class="enkeltprosjekt-verkty-liste">
+            {% for verkty in page.VERKTY %}
+              <li class="enkeltprosjekt-verkty-liste-li">{{ verkty }}</li>
+            {% endfor %}
+          </ul>
+        </details>
+        <br>
+      </section>
+
+      <section class="enkeltprosjekt-bilete">
+
+        {{ content }}
+
+        {%- comment -%}
+          <figure>
+          <img
+          class="enkeltprosjekt-bilete"
+          src=""
+          srcset=""
+          alt=""
+          loading="lazy">
+          <figcaption class="enkeltprosjekt-bilete-undertekst">
+
+          </figcaption>
+          </figure>
+        {%- endcomment -%}
+
+
+
+      {%- comment -%} {% for bilete in page.BILETE %}
+        {% assign img = include.img %}
+
+        <br>
+        <figure>
+          <img class="enkeltprosjekt-bilete" src="/assets/images/{{ page.name | replace: '.md', '' }}/WEBP/{{ bilete }}.webp" alt="{{ BILETTEKST }}" loading="lazy"/>
+          <figcaption class="enkeltprosjekt-bilete-undertekst">
+            {{ page.BILETTEKST }}
+            hei hei
+          </figcaption>
+        </figure>
+        <br>
+      {% endfor %} {%- endcomment -%}
+
+      
+
+      {%- comment -%} {%- assign i = 0 -%}
+      {%- for figur in page.BILETE -%}
+        {%- assign bilete = page.BILETE -%}
+        {%- assign tekst = page.BILETTEKST -%}
+
+        <figure>
+          <img class="enkeltprosjekt-bilete" src="/assets/images/{{ page.name | replace: '.md', '' }}/WEBP/{{ bilete[i] }}.webp" alt="{{ tekst[i] }}" loading="lazy"/>
+          <figcaption class="enkeltprosjekt-bilete-undertekst">
+            {{ figur }}
+          </figcaption>
+        </figure>
+
+        {%- increment i -%}
+      {%- endfor -%} {%- endcomment -%}
+
+
+      {%- comment -%} {% for items in site.prosjekt %}
+        {% for item in items %}
+          {{ item }}: {{ items[item] }}<br>
+        {% endfor %}
+      {% endfor %} {%- endcomment -%}
+
+      {%- comment -%} for BILDE i AKTUELL.SIDE
+        assign i = 0
+        bilde src="bilde.BILETE[i]"
+        figcap = bilde.BILETTEKST[i]
+      endfor {%- endcomment -%}
+
+        {%- comment -%} {% assign prosjektnamn = page.name | replace: '.md', '' %} {%- endcomment -%}
+
+        {%- comment -%}
+          {% for file in site.static_files %}
+          {% if file.path contains prosjektnamn %}
+          {% if file.extname == '.webp'  %}
+          <figure>
+          <img class="enkeltprosjekt-bilete" src="{{file.path}}" srcset="" alt="" loading="lazy">
+          <figcaption class="enkeltprosjekt-bilete-undertekst">
+          {{file.path}}
+          </figcaption>
+          </figure>
+          {% endif %}
+          {% endif %}
+          {% endfor %}
+        {%- endcomment -%}
+
+        
+      </section>
+
+
+        <section class="credits">
+          <ul class="enkeltprosjekt-informasjon-liste">
+            <li>
+              <em class="enkeltprosjekt-tekst-trykk">Posisjon:
+              </em>
+              <a href="{{ page.POSISJON.LENKJE }}">{{ page.POSISJON }}</a>
+            </li>
+            {%- comment -%}
+              <li><em class="enkeltprosjekt-tekst-trykk">Medverknad: </em>{{ page.MEDVERKNAD }}</li>
+            {%- endcomment -%}
+            <li>
+              <em class="enkeltprosjekt-tekst-trykk">Medverknad:
+              </em>
+              {% for medverkande in page.MEDVERKNAD %}
+                <li class="enkeltprosjekt-informasjon-liste-medverknad">
+                  {{ medverkande }}
+                </li>
+              {% endfor %}
+            </li>
+          </ul>
+        </section>
+      </div>
+    </main>
+  </body>
+
+  {%- include footer.html -%}
+</body>

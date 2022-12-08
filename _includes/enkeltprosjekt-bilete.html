@@ -1,0 +1,13 @@
+{% assign img = include.img %}
+
+<br>
+<figure>
+  {%- comment -%}
+    <source type="image/webp" srcset="/assets/images/{{ page.slug }}/WEBP/{{ img }}.webp" >
+  {%- endcomment -%}
+  <img class="enkeltprosjekt-bilete" src="/assets/images/{{ page.name | replace: '.md', '' }}/WEBP/{{ img }}.webp" alt="{{ include.figcap }}" loading="lazy" style="object-position: {{ include.shiftX }}px {{ include.shiftY }}px;"/>
+  <figcaption class="enkeltprosjekt-bilete-undertekst">
+    {{ include.figcap }}
+  </figcaption>
+</figure>
+<br>
