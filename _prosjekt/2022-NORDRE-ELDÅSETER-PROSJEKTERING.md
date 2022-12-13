@@ -19,6 +19,7 @@ MEDVERKNAD:
  - Johan-Embrik Dalseg
  - Jon Ivar Nordsteien
 PRIORITET: 2
+OMTALA: true
 ---
 {% include enkeltprosjekt-bilete.html   img="SITUASJONSPLAN 1-500 A1L - RED"                            figcap="Situasjonsplan av Nordre Eldåseter. Nytt laughus og ny driftsbygning." %}
 {% include enkeltprosjekt-bilete.html   img="SITUASJONSSNITT SØRVEST - 1-100 - A1L - RED"               figcap="Situasjonssnitt, vest, av nytt setertun." %}

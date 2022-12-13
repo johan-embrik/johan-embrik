@@ -12,11 +12,13 @@ TEKST200: "Dette er eit utval av gjengjevingar som fokuserar på interiør. Pros
 VERKTY:
 - Rhinoceros
 - V-Ray
+- Photoshop
 POSISJON: ""
 POSISJON.LENKJE: 
 MEDVERKNAD: 
 - Johan-Embrik Dalseg
 PRIORITET: 4
+OMTALA: true
 ---
 {% include enkeltprosjekt-bilete.html   img="INT_A_001_RED"     figcap="" %}
 {% include enkeltprosjekt-bilete.html   img="INT_D_001_RED ZIP" figcap="" %}

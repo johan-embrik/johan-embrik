@@ -1,17 +1,41 @@
 ---
-permalink: /heim/
+permalink: index
 TITTEL: HEIM
 ---
 {%- include head.html -%}
 {%- include header.html -%}
 
 <body>
-  <main style="width: 1280px; margin: auto; background-color: var(--bakgrunn-lys); padding: 1rem 0">
-<section style="width: 60ch; margin: auto;">
-  <h2 style="padding: 2rem 0 1rem 0;">God dag!</h2>
-  <p>
-    Sjekk ut nokre av dei andre sidene, til dømes prosjekta mine!
-    </p>
+  <main style="width: 1280px; margin: auto; background-color: var(--bakgrunn-lys); padding: 1rem 0 1rem 0">
+    <section class="landingsside-informasjon" style="width: 60ch; margin: auto;">
+      <h2 style="padding: 1rem 0;">God dag!</h2>
+      <p>
+        Sjekk ut nokre av dei andre sidene, til dømes prosjekta mine!
+      </p>
+    </section>
+
+    <h2>Utvalde prosjekt.</h2>
+    <section class="landingsside-omtala" style="padding: 1rem; width: 90ch; margin: auto; display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; background-color: var(--bakgrunn-lys-var3); border-radius: 0.5rem;">
+
+      {%- assign prosjektprioritet = site.prosjekt | sort: 'PRIORITET' -%}
+      {%- for prosjekt in prosjektprioritet -%}
+        {%- if prosjekt.OMTALA == true -%}
+          
+        <figure class="landingsside-omtala-figur">
+          <a class="landingsside-omtala-figur-lenkje" href="{{ prosjekt.url | relative_url }}">
+            <img class="landingsside-omtala-figur-bilete" src="{{ prosjekt.name | replace: '.md', '' | prepend: '/assets/images/' | append: '/WEBP/COVER.webp' | relative_url}}" srcset="" alt="{{ prosjekt.TITTEL }}" width="285px" loading="lazy" style="border-radius: 0.5rem;">
+            <figcaption class="landingsside-omtala-figur-undertekst">
+              <h2 class="landingsside-omtala-figur-undertekst-tittel">{{ prosjekt.TITTEL }}</h2>
+              <p class="landingsside-omtala-figur-undertekst-undertittel">{{ prosjekt.UNDERTITTEL }}</p>
+            </figcaption>
+          </a>
+        </figure>
+
+        {%- endif -%}
+
+
+      {%- endfor -%}
+
     </section>
   </main>
 </body>

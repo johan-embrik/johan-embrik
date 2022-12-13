@@ -21,6 +21,7 @@ MEDVERKNAD:
  - Johan-Embrik Dalseg
  - Jakob Skjold Olsen
 PRIORITET: 10
+OMTALA: false
 ---
 {% include enkeltprosjekt-bilete.html   img="AXO SØ 05"                                 figcap="Snittmodell, frå søraust." %}
 {% include enkeltprosjekt-bilete.html   img="3D-SYNTAX - GAMMEL STATUS 04 TRANSPARENT"  figcap="Logistikkdiagram, noverandre logistikk." %}

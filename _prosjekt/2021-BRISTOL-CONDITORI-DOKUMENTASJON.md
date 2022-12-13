@@ -39,6 +39,7 @@ BILETTEKST:
 - Fasade, nord.
 - Detalj av vindauge.
 PRIORITET: 9
+OMTALA: false
 ---
 <!-- ![1. etasje.](/assets/images/2021-BRISTOL-CONDITORI-DOKUMENTASJON/WEBP/1%20etg.webp){:.enkeltprosjekt-bilete :alt="1. etasje." :loading="lazy"}
 ![2. etasje.](/assets/images/2021-BRISTOL-CONDITORI-DOKUMENTASJON/WEBP/2.%20etg.webp){:.enkeltprosjekt-bilete :alt="2. etasje." :loading="lazy} -->

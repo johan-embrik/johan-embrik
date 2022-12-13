@@ -26,6 +26,7 @@ MEDVERKNAD:
 - Olav Haugen
 - Maren Engvik
 PRIORITET: 12
+OMTALA: false
 ---
 {% include enkeltprosjekt-bilete.html   img="Plan 1-200 Roof"               figcap="Planteikning av prosjektet." %}
 {% include enkeltprosjekt-bilete.html   img="Facade 1-200"                  figcap="Fasadeteikning, frå vest." %}

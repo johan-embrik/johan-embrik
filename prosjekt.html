@@ -1,6 +1,6 @@
 ---
 TITTEL: Prosjektgalleri
-permalink: /prosjekt/
+permalink: /prosjekt
 ---
 {%- include head.html -%}
 {%- include header.html -%}
@@ -42,11 +42,8 @@ permalink: /prosjekt/
           {%- for prosjekt in prosjektprioritet -%}
 
           <figure class="prosjekt-galleri-figure">
-            <a class="prosjekt-galleri-figur-lenkje" href="{{ prosjekt.url }}">
-              {%- comment -%}
-                <img class="prosjekt-galleri-figur-bilete" src="/assets/images/{{ prosjekt.name | replace: '.md', '' }}/WEBP/COVER.webp" srcset="" alt="{{ prosjekt.TITTEL }}" width="100%" height="100%" loading="lazy">
-              {%- endcomment -%}
-              <img class="prosjekt-galleri-figur-bilete" src="/assets/images/{{ prosjekt.name | replace: '.md', '' }}/WEBP/COVER.webp" srcset="" alt="{{ prosjekt.TITTEL }}" loading="lazy">
+            <a class="prosjekt-galleri-figur-lenkje" href="{{ prosjekt.url | relative_url }}">
+              <img class="prosjekt-galleri-figur-bilete" src="{{ prosjekt.name | replace: '.md', '' | prepend: '/assets/images/' | append: '/WEBP/COVER.webp' | relative_url }}" srcset="" alt="{{ prosjekt.TITTEL }}" loading="lazy">
               <figcaption class="prosjekt-galleri-figur-undertekst">
                 <h2 class="prosjekt-galleri-figur-undertekst-tittel">{{ prosjekt.TITTEL }}</h2>
                 <p class="prosjekt-galleri-figur-undertekst-undertittel">{{ prosjekt.UNDERTITTEL }}</p>

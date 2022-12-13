@@ -27,6 +27,7 @@ MEDVERKNAD:
 - Olav Haugen
 - Maren Engvik
 PRIORITET: 11
+OMTALA: false
 ---
 {% include enkeltprosjekt-bilete.html   img="City analysis Map"                 figcap="Kart over Trondheim. Aktuelle takplann å byggje på." %}
 {% include enkeltprosjekt-bilete.html   img="Roof+E Plan 1.200"                 figcap="Situasjonsplan av taklandsby, ROOF+E, beståande av COR+E." %}

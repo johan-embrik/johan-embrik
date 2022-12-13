@@ -23,6 +23,7 @@ MEDVERKNAD:
  - Johan-Embrik Dalseg
  - Sondre Stensheim Jørgensen
 PRIORITET: 5
+OMTALA: false
 ---
 {% include enkeltprosjekt-bilete.html   img="Jørgensen_Sondre_Dalseg_Johan-Embrik 1"    figcap="Situasjonsplan av Storvika." %}
 {% include enkeltprosjekt-bilete.html   img="Jørgensen_Sondre_Dalseg_Johan-Embrik 7"    figcap="Planteikning av overnattingshytta Bergveggen." %}

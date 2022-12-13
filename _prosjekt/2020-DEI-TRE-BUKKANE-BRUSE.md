@@ -25,14 +25,15 @@ MEDVERKNAD:
  - Henrik Bjersand Sunde
  - Gjermund Halsa Øyri
 PRIORITET: 6
+OMTALA: false
 ---
-{% include enkeltprosjekt-bilete.html       img="HOVED"                                                                   figcap="Boligtårn, monument og bibliotek sett frå parken frå aust." %}
-{% include enkeltprosjekt-bilete.html       img="Ø2_prosjekthefte 10"                                                     figcap="Planteikning, gateplan." %}
-{% include enkeltprosjekt-bilete.html       img="situasjonsplan_RED"                                                      figcap="Situasjon med andre grupper sine prosjekt." %}
-{% include enkeltprosjekt-bilete.html       img="fasade vest 1-200, Bearbeidet_RED"                                       figcap="Fasade, vest." %}
-{% include enkeltprosjekt-bilete.html       img="snitt 02, 1-200 bearbeidet_RED"                                          figcap="Snitt C-C, gjennom bibliotek og monument." %}
-{% include enkeltprosjekt-bilete.html       img="snitt03, bearbeidet_RED"                                                 figcap="Snitt D-D, gjennom bibliotek og nordre boligtårn." %}
-{% include enkeltprosjekt-bilete.html       img="Ø2_prosjekthefte 9"                                                      figcap="Konstruksjonsmodell." %}
-{% include enkeltprosjekt-bilete.html       img="plass, takplass bibliotek fra takplass bolig nord, midt på dagen"        figcap="Takplass og monument, sett frå nordre boligtårn." %}
-{% include enkeltprosjekt-bilete.html       img="kollektiv a 06"                                                          figcap="Kollektivtype A, kjøken og fellesareal." %}
-{% include enkeltprosjekt-bilete.html       img="kollektiv b 04"                                                          figcap="Kollektivtype B, gang og arbeidsrom." %}
+{% include enkeltprosjekt-bilete.html   img="HOVED"                                                             figcap="Boligtårn, monument og bibliotek sett frå parken frå aust." %}
+{% include enkeltprosjekt-bilete.html   img="Ø2_prosjekthefte 10"                                               figcap="Planteikning, gateplan." %}
+{% include enkeltprosjekt-bilete.html   img="situasjonsplan_RED"                                                figcap="Situasjon med andre grupper sine prosjekt." %}
+{% include enkeltprosjekt-bilete.html   img="fasade vest 1-200, Bearbeidet_RED"                                 figcap="Fasade, vest." %}
+{% include enkeltprosjekt-bilete.html   img="snitt 02, 1-200 bearbeidet_RED"                                    figcap="Snitt C-C, gjennom bibliotek og monument." %}
+{% include enkeltprosjekt-bilete.html   img="snitt03, bearbeidet_RED"                                           figcap="Snitt D-D, gjennom bibliotek og nordre boligtårn." %}
+{% include enkeltprosjekt-bilete.html   img="Ø2_prosjekthefte 9"                                                figcap="Konstruksjonsmodell." %}
+{% include enkeltprosjekt-bilete.html   img="plass, takplass bibliotek fra takplass bolig nord, midt på dagen"  figcap="Takplass og monument, sett frå nordre boligtårn." %}
+{% include enkeltprosjekt-bilete.html   img="kollektiv a 06"                                                    figcap="Kollektivtype A, kjøken og fellesareal." %}
+{% include enkeltprosjekt-bilete.html   img="kollektiv b 04"                                                    figcap="Kollektivtype B, gang og arbeidsrom." %}

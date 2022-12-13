@@ -24,6 +24,7 @@ MEDVERKNAD:
 - Johan-Embrik Dalseg
 - Tora Eskild
 PRIORITET: 1
+OMTALA: true
 ---
 {% include enkeltprosjekt-bilete.html   img="20220113 TUN 01 B"                                 figcap="Punktsky, fugleperspektiv, av Nordre Eldåseter, sett frå vest." %}
 {% include enkeltprosjekt-bilete.html   img="STALL+GEITHUS AKSONOMETRI A"                       figcap="Punktsky, aksionometri, av stall og geithus. Sett frå søraust." %}
