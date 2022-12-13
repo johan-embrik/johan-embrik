@@ -20,3 +20,5 @@ PRIORITET: 4
 ---
 {% include enkeltprosjekt-bilete.html   img="INT_A_001_RED"     figcap="" %}
 {% include enkeltprosjekt-bilete.html   img="INT_D_001_RED ZIP" figcap="" %}
+{% include enkeltprosjekt-bilete.html   img="INT_C_003_RED ZIP" figcap="" %}
+{% include enkeltprosjekt-bilete.html   img="INT_B_003_RED"     figcap="" %}
