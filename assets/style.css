@@ -600,3 +600,38 @@ details[open] > summary::before {
 
 
 
+.landingsside-omtala {
+    padding: 1rem;
+    max-width: 100%;
+    width: 60ch;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    background-color: var(--bakgrunn-lys-var3);
+    border-radius: 0.5rem;
+}
+.landingsside-omtala-figur {
+    
+}
+.landingsside-omtala-figur:hover {
+}
+.landingsside-omtala-figur-lenkje {
+
+}
+.landingsside-omtala-figur-bilete {
+    border-radius: 0.5rem;
+    max-width: 100%;
+    aspect-ratio: 1.618;
+}
+
+.landingsside-omtala-figur-undertekst {
+
+    vertical-align: bottom;
+}
+.landingsside-omtala-figur-undertekst-tittel {
+    color: blue;
+}
+.landingsside-omtala-figur-undertekst-undertittel {
+    color: purple;
+}

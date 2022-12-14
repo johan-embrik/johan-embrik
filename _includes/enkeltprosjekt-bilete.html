@@ -1,8 +1,10 @@
 {% assign img = include.img %}
+{%- assign lenkje1 = page.name | replace: '.md', '' | prepend: '/assets/images/' | append: '/WEBP/' -%}
+{%- assign lenkje2 = lenkje1 | append: {{img}} | append: '.webp'  -%}
 
 <br>
 <figure>
-  <img class="enkeltprosjekt-bilete" src="{{ page.name | replace: '.md', '' | prepend: '/assets/images/' | append: '/WEBP/' | append: {{ img }} | append: '.webp' | relative_url }}" alt="{{ include.figcap }}" loading="lazy"/>
+  <img class="enkeltprosjekt-bilete" src="{{ lenkje2 | relative_url }}" alt="{{ include.figcap }}" loading="lazy"/>
   <figcaption class="enkeltprosjekt-bilete-undertekst">
     {{ include.figcap }}
   </figcaption>
