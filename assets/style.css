@@ -425,6 +425,9 @@ details[open] > summary::before {
 
 /* ----- BILETE ----- */
 
+.enkeltprosjekt-figur {
+    padding: 2rem 0;
+}
 .enkeltprosjekt-bilete {
     max-width: 100%;
     max-height: 100%;
