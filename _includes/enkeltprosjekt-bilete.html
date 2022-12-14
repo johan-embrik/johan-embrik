@@ -1,11 +1,12 @@
 {% assign img = include.img %}
-{%- assign lenkje1 = page.name | replace: '.md', '' | prepend: '/assets/images/' | append: '/WEBP/' -%}
-{%- assign lenkje2 = lenkje1 | append: {{img}} | append: '.webp'  -%}
+{%- assign lenkje1 = page.name | replace: '.md', '' -%}
+{%- assign lenkje2 = lenkje1 | prepend: '/assets/images/' | append: '/WEBP/' -%}
+{%- assign lenkje3 = lenkje2 | append: {{img}} | append: '.webp'  -%}
 
 <figure class="enkeltprosjekt-figur">
-  <img class="enkeltprosjekt-bilete" src="{{ lenkje2 | relative_url }}" alt="{{ include.figcap }}" loading="lazy"/>
+  <img class="enkeltprosjekt-bilete" src="{{ lenkje3 | relative_url }}" alt="{{ include.figcap }}" loading="lazy"/>
   <figcaption class="enkeltprosjekt-bilete-undertekst">
     {{ include.figcap }}
-    <br>1: {{lenkje1}}<br>2: {{lenkje2}}
+    <br>page.name: {{lenkje1}}<br>2: {{lenkje2}}<br>3: {{lenkje3}}<br>3_rel: {{ lenkje3 | relative_url }}
   </figcaption>
 </figure>
