@@ -22,6 +22,7 @@ MEDVERKNAD:
  - Jakob Skjold Olsen
 PRIORITET: 10
 OMTALA: false
+GRUPPE: BRISTOL-CONDITORI
 ---
 {% include enkeltprosjekt-bilete.html   img="AXO SØ 05"                                 figcap="Snittmodell, frå søraust." %}
 {% include enkeltprosjekt-bilete.html   img="3D-SYNTAX - GAMMEL STATUS 04 TRANSPARENT"  figcap="Logistikkdiagram, noverandre logistikk." %}
@@ -30,6 +31,6 @@ OMTALA: false
 {% include enkeltprosjekt-bilete.html   img="A107 Layout test snitt"                    figcap="Snitteikning, langsnitt, frå vest." %}
 {% include enkeltprosjekt-bilete.html   img="A103 1. Kjeller"                           figcap="Planteikning, kjeller." %}
 {% include enkeltprosjekt-bilete.html   img="A104 2. 1. Etasje"                         figcap="Planteikning, 1. etasje." %}
-{% include enkeltprosjekt-bilete.html   img="A105 3. 1½. Etasje"                        figcap="Planteikning, 1½. etasje." %}
+{% include enkeltprosjekt-bilete.html   img="A105 3. 1,5. Etasje"                        figcap="Planteikning, 1½. etasje." %}
 {% include enkeltprosjekt-bilete.html   img="A106 4. 2. Etasje"                         figcap="Planteikning, 2. etasje." %}
 {% include enkeltprosjekt-bilete.html   img="A107 5. 3. etasje"                         figcap="Planteikning, 3. etasje." %}

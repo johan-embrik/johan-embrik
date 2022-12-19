@@ -6,8 +6,5 @@
 
 <figure class="enkeltprosjekt-figur">
   <img class="enkeltprosjekt-bilete" src="{{ lenkje3 | relative_url }}" alt="{{ include.figcap }}" loading="lazy"/>
-  <figcaption class="enkeltprosjekt-bilete-undertekst">
-    {{ include.figcap }}
-    <br>page.name: {{lenkje1a}}<br>page.slug: {{lenkje1b}}<br>2: {{lenkje2}}<br>3: {{lenkje3}}<br>3_rel: {{ lenkje3 | relative_url }}
-  </figcaption>
+  <figcaption class="enkeltprosjekt-bilete-undertekst">{{ include.figcap }}</figcaption>
 </figure>

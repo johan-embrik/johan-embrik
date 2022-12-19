@@ -27,6 +27,10 @@ MEDVERKNAD:
 - Maren Engvik
 PRIORITET: 12
 OMTALA: false
+SYSKEN:
+- 2021-CIT+E-ROOF+E-COR+E
+- 2021-COR+E
+GRUPPE: COR+E
 ---
 {% include enkeltprosjekt-bilete.html   img="Plan 1-200 Roof"               figcap="Planteikning av prosjektet." %}
 {% include enkeltprosjekt-bilete.html   img="Facade 1-200"                  figcap="Fasadeteikning, frå vest." %}

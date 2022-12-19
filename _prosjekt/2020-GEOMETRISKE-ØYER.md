@@ -25,6 +25,6 @@ OMTALA: false
 ![2. etasje.](/assets/images/2021-BRISTOL-CONDITORI-DOKUMENTASJON/WEBP/2.%20etg.webp){:.enkeltprosjekt-bilete :alt="2. etasje." :loading="lazy} -->
 
 {% include enkeltprosjekt-bilete.html   img="Perspektiv 03 - RED"           figcap="Gjengjeving, fugleperspektiv." %}
-{% include enkeltprosjekt-bilete.html   img="GEOMETRISKE ØYER - PLAN 05"    figcap="Siotuasjonsplan." %}
+{% include enkeltprosjekt-bilete.html   img="GEOMETRISKE ØYER - PLAN 05"    figcap="Situasjonsplan." %}
 {% include enkeltprosjekt-bilete.html   img="20210301_115949_RED"           figcap="Modell." %}
 {% include enkeltprosjekt-bilete.html   img="ViewCapture20221028_161428"    figcap="Materialillustrasjon." %}

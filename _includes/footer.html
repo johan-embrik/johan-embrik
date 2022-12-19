@@ -7,13 +7,19 @@
             <br>
             <p class="copyright enkeltprosjekt-tekst-trykk">© Johan-Embrik Dalseg</p>
         </div>
+
         <div class="footer-col2">
             <h2>Navigasjon</h2>
             <br><br>
-            <a href="{{ '/' | relative_url }}">HEIM</a>
-            <a href="{{ '/prosjekt' | relative_url }}" class="active">PROSJEKT</a>
-            <a href="{{ '/inspirasjon' | relative_url }}">INSPIRASJON</a>
-            <a href="{{ '/om-meg' | relative_url }}">OM MEG</a>
+            <ul class="secondary-navigation">
+
+                {% for NAVIGASJON in site.data.navigasjon.docs %}
+                    <li class="nav-items-botn{% if NAVIGASJON.url == page.url %} active{% endif %}">
+                        <a href="{{ NAVIGASJON.url | relative_url }}">{{ NAVIGASJON.title | upcase }}</a>
+                    </li>
+                {% endfor %}
+
+            </ul>
         </div>
     </nav>
 </footer>

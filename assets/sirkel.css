@@ -1,0 +1,84 @@
+:root {
+    --0: hsl(0, 100%, 50%);
+    --5: hsl(6, 100%, 49%);
+    --10: hsl(12, 100%, 48%);
+    --15: hsl(18, 100%, 46%);
+    --20: hsl(24, 100%, 45%);
+    --25: hsl(30, 100%, 44%);
+    --30: hsl(36, 100%, 43%);
+    --35: hsl(42, 100%, 41%);
+    --40: hsl(48, 100%, 40%);
+    --45: hsl(54, 100%, 39%);
+    --50: hsl(60, 100%, 38%);
+    --55: hsl(66, 100%, 36%);
+    --60: hsl(72, 100%, 35%);
+    --65: hsl(78, 100%, 34%);
+    --70: hsl(84, 100%, 33%);
+    --75: hsl(90, 100%, 31%);
+    --80: hsl(96, 100%, 30%);
+    --85: hsl(102, 100%, 29%);
+    --90: hsl(108, 100%, 28%);
+    --95: hsl(114, 100%, 26%);
+    --100: hsl(120, 100%, 25%);
+}
+
+
+
+
+/**
+ * 1. The `reverse` animation direction plays the animation backwards
+ *    which makes it start at the stroke offset 100 which means displaying
+ *    no stroke at all and animating it to the value defined in the SVG
+ *    via the inline `stroke-dashoffset` attribute.
+ * 2. Rotate by -90 degree to make the starting point of the
+ *    stroke the top of the circle.
+ * 3. Using CSS transforms on SVG elements is not supported by Internet Explorer
+ *    and Edge, use the transform attribute directly on the SVG element as a
+ * .  workaround (https://markus.oberlehner.net/blog/pure-css-animated-svg-circle-chart/#part-4-internet-explorer-strikes-back).
+ */
+
+ .circle-chart {
+    
+ }
+
+ .circle-chart__circle {
+    animation: circle-chart-fill 2s reverse; /* 1 */ 
+    transform: rotate(-90deg); /* 2, 3 */
+    transform-origin: center; /* 4 */
+  }
+.circle-chart__background {
+    fill: none;
+
+}
+  
+/**
+* 1. Rotate by -90 degree to make the starting point of the
+*    stroke the top of the circle.
+* 2. Scaling mirrors the circle to make the stroke move right
+*    to mark a positive chart value.
+* 3. Using CSS transforms on SVG elements is not supported by Internet Explorer
+*    and Edge, use the transform attribute directly on the SVG element as a
+* .  workaround (https://markus.oberlehner.net/blog/pure-css-animated-svg-circle-chart/#part-4-internet-explorer-strikes-back).
+*/
+/* 
+.circle-chart__circle--negative {
+    transform: rotate(-90deg) scale(1,-1); /* 1, 2, 3 */
+}
+*/
+
+.circle-chart__info {
+    animation: circle-chart-appear 2s forwards;
+    opacity: 0;
+    transform: translateY(0.3em);
+}
+
+@keyframes circle-chart-fill {
+    to { stroke-dasharray: 0 100; }
+}
+
+@keyframes circle-chart-appear {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

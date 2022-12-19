@@ -1,0 +1,25 @@
+{% assign gruppe = page.GRUPPE %}
+
+<section class="sysken">
+    <h2 class="h2-pad">
+        Relaterte prosjekt:
+    </h2>
+    <div class="enkeltprosjekt-sysken">
+        {% for prosjekt in site.prosjekt %}
+            {% if gruppe == prosjekt.GRUPPE and prosjekt.url != page.url %}
+
+                <figure class="enkeltprosjekt-sysken-figure">
+                    <a class="enkeltprosjekt-sysken-figur-lenkje" href="{{ prosjekt.url | relative_url }}">
+                        <img class="enkeltprosjekt-sysken-figur-bilete" src="{{ prosjekt.slug | prepend: '/assets/images/' | append: '/WEBP/COVER.webp' | relative_url }}" srcset="" alt="{{ prosjekt.TITTEL }}" loading="lazy">
+                        <figcaption class="enkeltprosjekt-sysken-figur-undertekst">
+                            <h2 class="enkeltprosjekt-sysken-figur-undertekst-tittel">{{ prosjekt.TITTEL }}</h2>
+                            <p class="enkeltprosjekt-sysken-figur-undertekst-undertittel">{{ prosjekt.UNDERTITTEL }}</p>
+                        </figcaption>
+                    </a>
+                </figure>
+
+            {% endif %}
+        {% endfor %}
+
+    </div>
+</section>

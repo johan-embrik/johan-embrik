@@ -19,6 +19,7 @@ MEDVERKNAD:
 - Johan-Embrik Dalseg
 PRIORITET: 4
 OMTALA: true
+GRUPPE: VISUALISERING
 ---
 {% include enkeltprosjekt-bilete.html   img="INT_A_001_RED"     figcap="" %}
 {% include enkeltprosjekt-bilete.html   img="INT_D_001_RED ZIP" figcap="" %}

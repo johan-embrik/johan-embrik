@@ -1,22 +1,15 @@
 <header>
-    
     <nav class="nav-topp">
         <ul class="primary-navigation">
-            <li class="nav-items">
-                <a href="{{ '/' | relative_url }}">HEIM</a>
-            </li>
-            <li class="nav-items active">
-                <a href="{{ '/prosjekt' | relative_url }}">PROSJEKT</a>
-            </li>
-            <li class="nav-items">
-                <a href="{{ '/inspirasjon' | relative_url }}">INSPIRASJON</a>
-            </li>
-            <li class="nav-items">
-                <a href="{{ '/om-meg' | relative_url }}">OM MEG</a>
-            </li>
+
+            {% for NAVIGASJON in site.data.navigasjon.docs %}
+                <li class="nav-items{% if NAVIGASJON.url == page.url %} active{% endif %}">
+                    <a href="{{ NAVIGASJON.url | relative_url }}">{{ NAVIGASJON.title | upcase }}</a>
+                </li>
+            {% endfor %}
+
         </ul>
     </nav>
-    
 </header>
 
 <!-- 

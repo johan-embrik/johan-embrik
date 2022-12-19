@@ -1,0 +1,55 @@
+{% assign x = 0 %} 
+{% for program in site.data.programvare %}
+    {% assign y = 0 %}
+    {% assign kategori = program[0] %}
+
+    <div class="programvare-behaldar">
+        <h4 class="programvare-overskrift">{{kategori}}</h4>
+        <div class="programvare-kolonne">
+
+            {% for prog in program offset:1%}
+
+                {% for item in prog %}
+                    {% assign programvare = item.programvare %}
+                    {% assign prosent = item.prosent %}
+                    
+                    <div class="programvare-portrett">
+                        <span class="programvare-portrett-hjelpetekst">{{programvare}}</span>
+                        <g>
+                            <img src="{{ programvare | prepend: 'assets/logoar/SVG/T/' | append: '.SVG' | relative_url }}" class="programvare-bilete" alt="{{ programvare }}"/>
+                            <svg
+                            class="circle-chart"
+                            viewBox="0 0 33.83098862 33.83098862"
+                            width="8rem"
+                            height="8rem"
+                            xmlns="http://www.w3.org/2000/svg">
+                                <circle
+                                    class="circle-chart__background"
+                                    stroke="var(--bakgrunn-lys-var3)"
+                                    stroke-width="0.1rem"
+                                    cx="16.91549431"
+                                    cy="16.91549431"
+                                    r="15.91549431" />
+                                <circle 
+                                    class="circle-chart__circle"
+                                    stroke="var(--{{prosent}})"
+                                    stroke-width="0.1rem"
+                                    stroke-dasharray="{{prosent}},100"
+                                    stroke-linecap="round"
+                                    fill="none"
+                                    cx="16.91549431"
+                                    cy="16.91549431"
+                                    r="15.91549431" />
+                            </svg>
+                        </g>
+                    </div>
+                    
+                {% endfor %}
+                <!-- {% increment y %} -->
+            {% endfor %}
+            
+            </div>
+        </div>
+    <!-- {% increment x %} -->
+
+{% endfor %}
