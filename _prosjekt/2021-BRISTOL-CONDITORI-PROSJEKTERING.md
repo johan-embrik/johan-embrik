@@ -16,7 +16,7 @@ VERKTY:
 - InDesign
 - Handteikning
 POSISJON: "63.432062, 10.396778"
-POSISJON.LENKJE: https://goo.gl/maps/9VvZyEJVJNwccvRz8
+POSISJONSLENKJE: https://goo.gl/maps/9VvZyEJVJNwccvRz8
 MEDVERKNAD: 
  - Johan-Embrik Dalseg
  - Jakob Skjold Olsen

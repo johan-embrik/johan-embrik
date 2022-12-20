@@ -19,7 +19,7 @@ VERKTY:
 - Illustrator
 - InDesign
 POSISJON: "63.438753, 10.417348"
-POSISJON.LENKJE: https://goo.gl/maps/T4bgniKrUxML5ZwZ8
+POSISJONSLENKJE: https://goo.gl/maps/T4bgniKrUxML5ZwZ8
 MEDVERKNAD: 
  - Johan-Embrik Dalseg
  - Henrik Bjersand Sunde

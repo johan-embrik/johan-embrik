@@ -18,7 +18,7 @@ VERKTY:
 - InDesign
 - Modell
 POSISJON: "63.471394, 10.882274"
-POSISJON.LENKJE: https://goo.gl/maps/VJt1R6vnNLwdxbJQA
+POSISJONSLENKJE: https://goo.gl/maps/VJt1R6vnNLwdxbJQA
 MEDVERKNAD: 
  - Johan-Embrik Dalseg
  - Sondre Stensheim Jørgensen

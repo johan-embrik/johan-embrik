@@ -23,13 +23,12 @@
     --kontrast3: hsl(30, 75%, 75%);
     --hover1: hsl(0, 100%, 40%);
     --hover1-aktiv: hsl(0, 100%, 30%);
-
 }
 * {
     margin: 0;
     padding: 0;
     color: var(--farge1);
-    font-family: Fira Code Light;
+    font-family: "Fira Code Light", Consolas, Courier, monospace;
     font-size: 0.85rem;
     scroll-behavior: smooth;
     word-break: break-word;
@@ -48,10 +47,6 @@ body {
 main {
     background-color: var(--bakgrunn-lys);
 }
-section {
-    margin: 1rem 0;
-    padding: 1rem 0;
-}
 a {
     color: var(--farge1);
     text-decoration: none;
@@ -69,6 +64,12 @@ hr {
     padding: 0 0 1rem 1rem;
     background-color: inherit;
 }
+.BEHALDAR-GENERELL {
+    max-width: 60ch;
+    margin: auto;
+    padding: 0 1rem;
+    overflow: scroll;
+}
 
 
 
@@ -76,18 +77,17 @@ hr {
 /* ---------- NAVIGASJONSMENY ---------- */
 /* --------------------------------------*/
 
+/* ----- HEADER ----- */
 header {
-    background-color: var(--bakgrunn-lys-var3);
-}
-
-.nav-topp {
     border-bottom: 1px solid var(--farge1);
+}
+.nav-topp {
+    max-width: 1280px;
+    width: 100%;
+    margin: auto;
     position: sticky;
     top: 0;
     z-index: 9;
-    width: 100%;
-    max-width: 1280px;
-    margin: auto;
     background-color: var(--bakgrunn-lys);
 }
 .primary-navigation {
@@ -119,16 +119,8 @@ header {
     padding: 2px;
 }
 
-
-
-/* -----------------------------*/
-/* ---------- FOOTER ---------- */
-/* -----------------------------*/
-
+/* ----- FOOTER ----- */
 footer {
-    /* border-top: 1px solid var(--farge1); */
-    background-color: var(--bakgrunn-lys);
-    width: 100%;
     border-top: 1px solid var(--farge1);
 }
 .nav-botn {
@@ -138,11 +130,8 @@ footer {
     padding: 1rem 0;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    place-items: space-around;
 }
-/* .footer-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(min(400px, 100%), 1fr));
-} */
 .footer-col1 {
     margin-left: 1rem;
     display: flex;
@@ -169,20 +158,61 @@ footer {
 /* ---------- LANDINGSSIDE ---------- */
 /* -----------------------------------*/
 
-/* section {
-    grid-column-start: 2;
-    margin: 1rem;
-    width: 60ch;
-} */
-
-#rainbow {
-    background: linear-gradient(45deg, hsl(360, 72%, 65%), hsl(235, 62%, 73%), hsl(310, 70%, 70%)) !important;
+.landingsside-informasjon {
+    max-width: 100%;
+    margin: auto;
 }
-.landingsside-behaldar {
+.landingsside-informasjon-overskrift {
+    font-size: 1.2rem;
+    padding: 1rem 0;
+}
+
+/* ----- OMTALA ----- */
+
+.landingsside-omtala {
     padding: 1rem;
-    margin: 0 auto;
-    max-width: 60ch;
-    background-color: var(--bakgrunn-lys);
+    margin: 1rem auto 3rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    background-color: var(--bakgrunn-lys-var3);
+    border-radius: 0.5rem;
+}
+.landingsside-omtala-figur {
+    background-color: inherit;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+}
+.landingsside-omtala-figur:hover {
+}
+.landingsside-omtala-figur-lenkje {
+    
+}
+.landingsside-omtala-figur-bilete {
+    border-radius: 0.5rem;
+    max-width: 100%;
+    object-fit: cover;
+    aspect-ratio: 1.618;
+    width: 100%;
+}
+.landingsside-omtala-figur-undertekst {
+    background-color: inherit;
+    flex-flow: column;
+}
+.landingsside-omtala-figur-undertekst-tittel {
+    background-color: inherit;
+    vertical-align: bottom;
+    margin: 0;
+    padding: 0;
+    font-size: 0.9rem;
+}
+.landingsside-omtala-figur-undertekst-undertittel {
+    vertical-align: bottom;
+    background-color: inherit;
+    margin: 0;
+    padding: 0;
+    font-size: 0.8rem;
 }
 
 
@@ -216,7 +246,7 @@ h3 {
     margin-left: 1rem;
 }
 
-/* ----- FIGUR ----- */
+/* ----- PROSJEKTGALLERI -> FIGUR ----- */
 
 .prosjekt-galleri-figur:hover>.prosjekt-galleri-figur-lenkje>.prosjekt-galleri-figur-undertekst>* {
     color: var(--hover1);
@@ -237,6 +267,8 @@ h3 {
     object-fit: cover;
     overflow: hidden;
     border-radius: 0.5rem;
+    min-width: 320px;
+    max-width: 100%;
 }
 .prosjekt-galleri-figur-undertekst-tittel {
     font-size: 1rem;
@@ -263,13 +295,13 @@ h3 {
     padding: 0;
 }
 
-/* ----- INFORMASJON ----- */
+/* ----- ENKELTPROSJEKT -> INFORMASJON ----- */
 
 .enkeltprosjekt-informasjon,
 .credits {
     margin: 0 auto;
     padding: 0 1rem 0 1rem;
-    max-width: 100vw;
+    max-width: 60ch;
     background-color: var(--bakgrunn-lys);
     padding-top: 2rem;
 }
@@ -309,7 +341,7 @@ h3 {
     padding-left: 1rem;
 }
 
-/* ----- VERKTY ----- */
+/* ----- ENKELTPROSJEKT -> VERKTY ----- */
 details summary::-webkit-details-marker {
     display:none;
 }
@@ -328,7 +360,7 @@ summary {
     position: relative;
     cursor: pointer;
 }
-/* STORLEIK PÅ PIL */
+/* ----- ENKELTPROSJEKT -> VERKTY -> STORLEIK PÅ PIL ----- */
 summary:before {
     content: '';
     border-width: .4rem;
@@ -344,7 +376,6 @@ summary:before {
 details[open] > summary::before {
     transform: rotate(90deg);
 }
-
 .enkeltprosjekt-verkty[open] .enkeltprosjekt-verkty-felt ~ * {
     animation: sweep 300ms ease-in-out;
 } 
@@ -352,7 +383,6 @@ details[open] > summary::before {
     0%    {opacity: 0; margin-top: -1rem}
     100%  {opacity: 1; margin-top: 0rem}
 }
-
 .enkeltprosjekt-verkty-felt {
     background-color: var(--bakgrunn-lys-var2);
     padding: 1rem;
@@ -366,8 +396,6 @@ details[open] > summary::before {
     padding: 0 0 1rem 1.5rem;
 
 }
-/* .enkeltprosjekt-verkty-liste > li {
-} */
 .enkeltprosjekt-verkty-liste-li{
     list-style-type: "+";
     background-color: inherit;
@@ -375,7 +403,7 @@ details[open] > summary::before {
     margin-left: 1rem;
 }
 
-/* ----- BILETE ----- */
+/* ----- ENKELTPROSJEKT -> BILETE ----- */
 
 .enkeltprosjekt-figur {
     padding: 2rem 0;
@@ -389,11 +417,6 @@ details[open] > summary::before {
     padding-top: 1rem;
     margin: 0;
 }
-/* .enkeltprosjekt-bilete {
-    max-width: min(100%, 100vw);
-    max-height: 100%;
-    object-fit: cover;
-} */
 .enkeltprosjekt-bilete-undertekst {
     margin: 0 auto;
     color: var(--farge3);
@@ -405,126 +428,9 @@ details[open] > summary::before {
 
 
 
-/* ------------------------------- */
-/* ---------- RESPONSIV ---------- */
-/* ------------------------------- */
 
-@media screen and (min-width: 520px) {
 
-    /* PROSJEKTGALLERI */
-    .prosjekt-galleri-figur-bilete {
-        width: 100%;
-        object-fit: cover;
-        aspect-ratio: 1.618;
-    }
-
-    /* ENKELTPROSEJKT */
-    .behaldar-enkeltprosjekt {
-        width: 520px;
-        margin: 0 auto;
-        padding: 0;
-    }
-    .enkeltprosjekt-informasjon {
-        max-width: 100%;
-        max-height: 100%;
-    }
-    .bilete {
-        max-width: 100%;
-    }
-    .enkeltprosjekt-bilete {
-        padding: 0;
-        margin: 0;
-        max-width: 100%;
-    }
-    .primary-navigation {
-        max-width: 60ch;
-        justify-content: space-between;
-        margin: auto;
-    }
-    .nav-items > a {
-        font-size: 1.2rem;
-    }
-    footer {
-        max-width: 520px;
-        width: 100%;
-        margin: auto;
-    }
-    .footer-col1, .footer-col2 {
-        margin: 1rem;
-    }
-}
-/* @media screen and (min-width: 768px) {
-    .behaldar-enkeltprosjekt {
-        width: 900px;
-        margin: 0 auto;
-    }
-    .primary-navigation {
-        width: 900px;
-    }
-}
-@media screen and (min-width: 1024px) {
-    .behaldar-enkeltprosjekt {
-        width: 900px;
-        margin: 0 auto;
-    }
-    .primary-navigation {
-        width: 900px;
-    }
-} */
-@media screen and (min-width: 1280px) {
-    * {
-        font-size: 1rem;
-    }
-    .behaldar-enkeltprosjekt {
-        width: 1280px;
-        margin: 0 auto;
-    }
-    .primary-navigation {
-        /* width: 1280px; */
-        max-width: 60ch;
-        justify-content: space-between;
-        margin: auto;
-        padding: auto;
-    }
-    .enkeltprosjekt-informasjon {
-        max-width: 60ch;
-    }
-    .credits {
-        max-width: 1280px;
-        width: 60ch;
-        margin: 0 auto;
-        padding: 1rem;
-    }
-    /* .enkeltprosjekt-tekst-200 {
-        max-width: 65ch;
-        margin: auto;
-    } */
-    footer {
-        max-width: 1280px;
-        margin: auto;
-    }
-    .nav-botn {
-        width: 60ch;
-    }
-    .footer-col1, .footer-col2 {
-        margin: 0;
-    }
-    .prosjekt-galleri {
-        grid-template-columns: repeat(auto-fit, minmax(min(500px, 100%), 1fr));
-        margin: 1rem;
-    }
-}
-/* @media screen and (min-width: 1536px) {
-    .behaldar-enkeltprosjekt {
-        width: 100%;
-        margin: 0 auto;
-    }
-    .primary-navigation {
-        width: 900px;
-    }
-} */
-
-/* ----- CREDITS ----- */
+/* ----- ENKELTPROSJEKT -> CREDITS ----- */
 
 
 .tilToppen {
@@ -537,83 +443,9 @@ details[open] > summary::before {
     flex-direction: row;
     margin: 0;
 }
-/* .bildetekst-venstre {
-    margin: 0;
-    text-align: left;
-    font-size: 1rem;
-    font-weight: normal;
-}
-
-.bildetekst-høgre {
-    margin: 0;
-    text-align: right;
-    font-size: .8rem;
-    font-weight: normal;
-} */
 
 
 
-
-
-.landingsside-omtala {
-    padding: 1rem;
-    margin: auto;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 1rem;
-    background-color: var(--bakgrunn-lys-var3);
-    border-radius: 0.5rem;
-}
-.landingsside-omtala-figur {
-    background-color: inherit;
-    border-radius: 0.5rem;
-    display: flex;
-    flex-direction: column;
-}
-.landingsside-omtala-figur:hover {
-}
-.landingsside-omtala-figur-lenkje {
-    
-}
-.landingsside-omtala-figur-bilete {
-    border-radius: 0.5rem;
-    max-width: 100%;
-    object-fit: cover;
-    aspect-ratio: 1.618;
-    width: 100%;
-}
-
-.landingsside-omtala-figur-undertekst {
-    background-color: inherit;
-    flex-flow: column;
-}
-.landingsside-omtala-figur-undertekst-tittel {
-    background-color: inherit;
-    vertical-align: bottom;
-    margin: 0;
-    padding: 0;
-    font-size: 0.9rem;
-}
-.landingsside-omtala-figur-undertekst-undertittel {
-    vertical-align: bottom;
-    background-color: inherit;
-    margin: 0;
-    padding: 0;
-    font-size: 0.8rem;
-}
-
-.behaldar-landingsside {
-    max-width: 60ch;
-    width: 100%;
-    margin: auto;
-}
-.landingsside-informasjon {
-    width: 60ch;
-    margin: auto;
-}
-.landingsside-informasjon-overskrift {
-    padding: 1rem 0;
-}
 
 /* ----- SYSKEN ----- */
 
@@ -678,6 +510,32 @@ details[open] > summary::before {
 
 
 
+/* ---------------------------- */
+/* ---------- OM MEG ---------- */
+/* ---------------------------- */
+
+.behaldar-om-meg {
+    max-width: 1280px;
+    width: 60ch;
+    margin: auto;
+    background-color: var(--bakgrunn-lys);
+    padding: 1rem 0;
+}
+.om-meg-tekst {
+    margin: auto;
+}
+.om-meg-programvare {
+    margin: auto;
+}
+.om-meg-dokument {
+    max-width: 100%;
+    margin: 4rem auto;
+    background-color: var(--bakgrunn-lys-var3);
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+
+/* ----- OM MEG -> PORTRETT ----- */
 .portrett {
     display: block;
     border-radius: 50%;
@@ -687,6 +545,7 @@ details[open] > summary::before {
     height: 10rem;
     margin: 2rem auto;
 }
+/* ----- OM MEG -> PROGRAMVARE ----- */
 .programvare-behaldar {
     background-color: var(--bakgrunn-lys-var3);
     padding: 1rem;
@@ -704,10 +563,6 @@ details[open] > summary::before {
     justify-items: center;
     background-color: var(--bakgrunn-lys-var3);
     padding: 1rem;
-}
-.programvare-portrett {
-    /* position: relative;
-    display: inline-block; */
 }
 .programvare-bilete {
     border-radius: 50%;
@@ -739,34 +594,7 @@ details[open] > summary::before {
     visibility: visible;
 }
 
-
-
-
-
-
-.om-meg-behaldar {
-    max-width: 1280px;
-    width: 60ch;
-    margin: auto;
-    background-color: var(--bakgrunn-lys);
-    padding: 1rem 0;
-}
-.om-meg-tekst {
-    margin: auto;
-}
-.om-meg-programvare {
-    margin: auto;
-}
-.om-meg-dokument {
-    max-width: 100%;
-    margin: auto;
-    background-color: var(--bakgrunn-lys-var3);
-    padding: 1rem;
-    border-radius: 0.5rem;
-}
-
-
-
+/* ----- ??? -> ??? ----- */
 .brødtekst-underoverskrift {
     padding: 1rem 0;
     font-size: 1.2rem;
@@ -775,3 +603,104 @@ details[open] > summary::before {
     padding: 1rem 0;
     font-size: 1.1rem;
 }
+
+
+
+/* ----------------------------------- */
+/* ---------- RESPONSIVITET ---------- */
+/* ----------------------------------- */
+
+/* MINIMUM STORLEIK ER 320px */
+
+@media screen and (min-width: 520px) {
+
+    /* PROSJEKTGALLERI */
+    .prosjekt-galleri {
+        margin: 1rem;
+    }
+    .prosjekt-galleri-figur-bilete {
+        width: 100%;
+        object-fit: cover;
+        aspect-ratio: 1.618;
+    }
+
+    /* ENKELTPROSEJKT */
+    .behaldar-enkeltprosjekt {
+        width: 100%;
+        margin: 0 auto;
+        padding: 0;
+    }
+    .bilete {
+        max-width: 100%;
+    }
+    .enkeltprosjekt-bilete {
+        padding: 0;
+        margin: 0;
+        max-width: 100%;
+    }
+    .primary-navigation {
+        max-width: 60ch;
+        justify-content: space-between;
+        margin: auto;
+    }
+    .nav-items > a {
+        font-size: 1.2rem;
+    }
+    .nav-botn {
+        width: 60ch;
+    }
+    .footer-col1, .footer-col2 {
+        margin: 0;
+    }
+}
+@media screen and (min-width: 861px) {
+    .prosjekt-galleri {
+        grid-template-columns: repeat(auto-fit, minmax(min(410px, 100%), 1fr));
+    }
+}
+/* @media screen and (min-width: 1024px) {
+    .behaldar-enkeltprosjekt {
+        width: 900px;
+        margin: 0 auto;
+    }
+    .primary-navigation {
+        width: 900px;
+    }
+} */
+@media screen and (min-width: 1280px) {
+    * {
+        font-size: 1rem;
+    }
+    .primary-navigation {
+        max-width: 60ch;
+        justify-content: space-between;
+        margin: auto;
+        padding: auto;
+    }
+    .footer-col1, .footer-col2 {
+        margin: 0;
+    }
+    .prosjekt-galleri {
+        grid-template-columns: repeat(auto-fit, minmax(min(500px, 100%), 1fr));
+        margin: 1rem;
+    }
+    .behaldar-enkeltprosjekt {
+        width: 1280px;
+        margin: 0 auto;
+    }
+    .credits {
+        max-width: 1280px;
+        width: 60ch;
+        margin: 0 auto;
+        padding: 1rem;
+    }
+}
+/* @media screen and (min-width: 1536px) {
+    .behaldar-enkeltprosjekt {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .primary-navigation {
+        width: 900px;
+    }
+} */

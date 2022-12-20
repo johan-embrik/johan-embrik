@@ -13,7 +13,7 @@ VERKTY:
 - Rhinoceros
 - V-Ray
 POSISJON: "-"
-POSISJON.LENKJE: 
+POSISJONSLENKJE: 
 MEDVERKNAD: 
 - Johan-Embrik Dalseg
 BILETE:

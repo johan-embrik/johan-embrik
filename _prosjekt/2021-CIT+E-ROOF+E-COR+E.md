@@ -19,7 +19,7 @@ VERKTY:
 - Adobe Illustrator
 - InDesign
 POSISJON: "63.430003, 10.381865"
-POSISJON.LENKJE: https://goo.gl/maps/zkVTotr7t7FTGGF56
+POSISJONSLENKJE: https://goo.gl/maps/zkVTotr7t7FTGGF56
 MEDVERKNAD: 
 - Johan-Embrik Dalseg
 - Einar Nørstegård

@@ -14,7 +14,7 @@ VERKTY:
 - V-Ray
 - Photoshop
 POSISJON: ""
-POSISJON.LENKJE: 
+POSISJONSLENKJE: 
 MEDVERKNAD: 
 - Johan-Embrik Dalseg
 PRIORITET: 4

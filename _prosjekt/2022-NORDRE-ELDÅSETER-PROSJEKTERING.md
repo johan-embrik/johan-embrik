@@ -14,7 +14,7 @@ VERKTY:
 - CloudCompare
 - InDesign
 POSISJON: "61.725731, 9.939044"
-POSISJON.LENKJE: https://goo.gl/maps/A9UNwRGdArKnQcWRA
+POSISJONSLENKJE: https://goo.gl/maps/A9UNwRGdArKnQcWRA
 MEDVERKNAD: 
  - Johan-Embrik Dalseg
  - Jon Ivar Nordsteien
