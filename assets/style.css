@@ -300,10 +300,10 @@ h3 {
 .enkeltprosjekt-informasjon,
 .credits {
     margin: 0 auto;
-    padding: 0 1rem 0 1rem;
+    padding: 0 1rem;
     max-width: 60ch;
-    background-color: var(--bakgrunn-lys);
     padding-top: 2rem;
+    text-align: left;
 }
 .enkeltprosjekt-tittel,
 .enkeltprosjekt-undertittel,
@@ -418,14 +418,65 @@ details[open] > summary::before {
     margin: 0;
 }
 .enkeltprosjekt-bilete-undertekst {
-    margin: 0 auto;
+    margin: auto;
+    margin-left: 1rem;
     color: var(--farge3);
     text-align: left;
-    font-size: 1rem;
+    font-size: 0.8rem;
     font-weight: normal;
-    max-width: 60ch;
+    max-width: 100%;
+    font-style: italic;
 }
 
+
+/* ----- ENKELTPROSJEKT -> BRØDTEKST ----- */
+
+.enkeltprosjekt-brødtekst {
+    margin: auto;
+    padding: 1rem;
+    max-width: 60ch;
+    text-align: left;
+}
+hr {
+    border-top: 1px dashed var(--farge1);
+    margin: 0 1.5rem;
+}
+
+/* ----- ENKELTPROSJEKT -> BILETE -> KLYNGE ----- */
+
+.enkeltprosjekt-klynge {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(130px, 100%), 1fr)); /* to kolonner som minimum ved 320px skjermbredde */
+    place-items: center;
+    align-items: flex-start; /* toppjustering av element i rekkje */
+    gap: 1rem;
+    margin: auto;
+    padding: 0 1rem;
+}
+.enkeltprosjekt-klynge > .enkeltprosjekt-figur {
+    padding: 2rem 0;
+}
+.enkeltprosjekt-klynge > .enkeltprosjekt-figur > .enkeltprosjekt-bilete {
+    width: 100%;
+    object-fit: cover;
+    aspect-ratio: 1.618;
+    padding: 0;
+    margin: 0;
+}
+
+.enkeltprosjekt-underoverskrift {
+    padding: 2rem 0;
+    font-size: 1.2rem;
+    text-align: left;
+    margin: 0 auto;
+    width: 590px;
+}
+.enkeltprosjekt-underunderoverskrift {
+    padding: 1rem 0;
+    font-size: 1.1rem;
+    text-align: left;
+    margin: 0 auto;
+}
 
 
 
@@ -452,8 +503,11 @@ details[open] > summary::before {
 .sysken {
     background-color: var(--bakgrunn-lys-var2);
     border-radius: 0.5rem;
-    margin: 2rem auto;
+    margin: auto;
+    padding: 1rem 0;
     width: 60ch;
+    max-width: 100%;
+    margin-bottom: 2rem;
 }
 .enkeltprosjekt-sysken {
     max-width: 1280px;
@@ -652,6 +706,9 @@ details[open] > summary::before {
     .footer-col1, .footer-col2 {
         margin: 0;
     }
+    .enkeltprosjekt-klynge {
+        grid-template-columns: repeat(auto-fit, minmax(min(200px, 100%), 1fr)); /* to kolonner som minimum ved 320px skjermbredde */
+    }
 }
 @media screen and (min-width: 861px) {
     .prosjekt-galleri {
@@ -693,6 +750,9 @@ details[open] > summary::before {
         width: 60ch;
         margin: 0 auto;
         padding: 1rem;
+    }
+    .enkeltprosjekt-klynge {
+        grid-template-columns: repeat(auto-fit, minmax(min(600px, 100%), 1fr)); /* to kolonner som minimum ved 320px skjermbredde */
     }
 }
 /* @media screen and (min-width: 1536px) {

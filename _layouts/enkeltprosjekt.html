@@ -58,24 +58,20 @@
             <em class="enkeltprosjekt-tekst-trykk">Posisjon: </em>
             <a href="{{ page.POSISJONSLENKJE | absolute_url }}">{{ page.POSISJON }}</a>
           </li>
-          {%- comment -%}
-            <li><em class="enkeltprosjekt-tekst-trykk">Medverknad: </em>{{ page.MEDVERKNAD }}</li>
-          {%- endcomment -%}
           <li>
-            <em class="enkeltprosjekt-tekst-trykk">Medverknad:
-            </em>
+            <em class="enkeltprosjekt-tekst-trykk">Medverknad:</em>
             {% for medverkande in page.MEDVERKNAD %}
               <li class="enkeltprosjekt-informasjon-liste-medverknad">
                 {{ medverkande }}
-                </li>
-              {% endfor %}
               </li>
-              </ul>
-              </section>
+            {% endfor %}
+          </li>
+        </ul>
+      </section>
 
-              {% if page.GRUPPE %}
-                {% include sysken.html %}
-              {% endif %}
+      {% if page.GRUPPE %}
+        {% include sysken.html %}
+      {% endif %}
               
     </div>
   </main>

@@ -17,7 +17,7 @@ POSISJON: "61.725731, 9.939044"
 POSISJONSLENKJE: https://goo.gl/maps/A9UNwRGdArKnQcWRA
 MEDVERKNAD: 
  - Johan-Embrik Dalseg
- - Jon Ivar Nordsteien
+ - Jon Ivar Nordsteien (rettleiiar)
 PRIORITET: 2
 OMTALA: true
 GRUPPE: NORDRE-ELDÅSETER
