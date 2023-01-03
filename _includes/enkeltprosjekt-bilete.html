@@ -5,6 +5,6 @@
 {%- assign lenkje3 = lenkje2 | append: {{img}} | append: '.webp'  -%}
 
 <figure class="enkeltprosjekt-figur">
-  <img class="enkeltprosjekt-bilete" src="{{ lenkje3 | relative_url }}" alt="{{ include.figcap }}" loading="lazy"/>
+  <img class="enkeltprosjekt-bilete bilete-fullskjerm" src="{{ lenkje3 | relative_url }}" alt="{{ include.figcap }}" loading="lazy" data-caption="{{ include.figcap }}"/>
   <figcaption class="enkeltprosjekt-bilete-undertekst">{{ include.figcap }}</figcaption>
 </figure>

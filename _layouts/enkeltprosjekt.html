@@ -77,4 +77,12 @@
   </main>
 </body>
 
+<!-- intense.js for å få bilete i fullskjerm -->
+<script>
+  window.onload = function() {
+    var elements = document.querySelectorAll( '.bilete-fullskjerm' ); // klassenamn i html og css
+    Intense( elements );
+  }
+</script>
+
 {%- include footer.html -%}

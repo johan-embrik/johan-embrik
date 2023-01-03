@@ -35,13 +35,18 @@ GRUPPE: NORDRE-ELDÅSETER
     {% include enkeltprosjekt-bilete.html   img="SITUASJONSPLAN - 1-200 - A1L"   figcap="Setertunet/inntunet/støa med dei fire husa. Alle husa har i dag blikktak." %}
 {% include div-lukk.html %}
 
+{% include klynge-start.html %}
+    {% include enkeltprosjekt-bilete.html   img="NE 01"   figcap="Situasjonen i 2022." %}
+    {% include enkeltprosjekt-bilete.html   img="NE 02"   figcap="Situasjonen om husa vert satt i stand i tråd med tradisjon." %}
+{% include div-lukk.html %}
+
 {% include enkeltprosjekt-bilete.html   img="SITUASJONSSNITT SØRVEST - 1-100 - A1L - RED"   figcap="Situasjonssnitt av setertunet, sett frå vest." %}
 {% include enkeltprosjekt-bilete.html   img="SITUASJONSSNITT SØRAUST - 1-100 - A1L - TIL LITEN BRUK"   figcap="Situasjonssnitt av setertunet, sett frå sør." %}
 
 <hr>
 
 <div class="enkeltprosjekt-informasjon">
-    <h2 class="enkeltprosjekt-underunderoverskrift">SELET</h2>
+    <h2 class="enkeltprosjekt-underunderoverskrift">Sel</h2>
     Selet er bolighuset på setra, og husar i dag berre folk og mus. Tradisjonelt var sela satt saman av tre rom: eitt kjøken med soverom, eitt uterom eller grovrom (gjennomgang), og eitt innsel for foredling av mjølka ein produserte. Selet i Nordre Eldåseter er uvanleg langt, og det ser ut som det er bygd av til saman fem hjølmingar, altså fem lengder med tømmer. I røynda består dette selet av to laftekasser, bundne saman av eit reisverk. Det er tre ukledde hjølmingar til venstre på biletet som høyrar til ei laftekasse. Denne kassa har dei tre tradisjonelle romma, altså kjøken, gang og innsel. Til høgre for denne laftekassa står eit reisverk, som i dag husar eit kjøken. Heilt til høgre står ei lita laftekasse som er kledd inn. Denne samanføringa av dei to laftekassene har skjedd mellom 1858 og 1930.
 </div>
 {% include klynge-start.html %}
@@ -61,7 +66,7 @@ GRUPPE: NORDRE-ELDÅSETER
 <hr>
 
 <div class="enkeltprosjekt-informasjon">
-    <h2 class="enkeltprosjekt-underunderoverskrift">FJOSET</h2>
+    <h2 class="enkeltprosjekt-underunderoverskrift">Fjos</h2>
     Fjoset brukte ein til størsteparten av buskapen. Dette fjoset er stort samanlikna med andre fjos i området, og er satt saman av tre hjølmin-
     gar. Restane etter innreiinga antydar at det har vore 33 båsar her, og ein kunne truleg binde rundt 30 kyr her inne til mjølking. Kyrne sov
     ikkje nødvendigvis inne i fjoset, det varierte frå seterbruk til seterbruk.
@@ -72,7 +77,7 @@ GRUPPE: NORDRE-ELDÅSETER
     <br><br>
     Taktroa er er klovningar, halve stokkar, som ikkje er vanleg å finne no til dags.
     <br><br>
-    Fjoset er ikkje registrert på kartet frå 1858.
+    Fjoset er ikkje registrert på kart frå 1858.
 </div>
 {% include klynge-start.html %}
     {% include enkeltprosjekt-bilete.html   img="FJOS AKSONOMETRI B" figcap="Punktsky, aksionometri. Fjos. Sett frå nordvest." %}
@@ -88,7 +93,7 @@ GRUPPE: NORDRE-ELDÅSETER
 <hr>
 
 <div class="enkeltprosjekt-informasjon">
-    <h2 class="enkeltprosjekt-underunderoverskrift">STALLEN + GEITHUSET</h2>
+    <h2 class="enkeltprosjekt-underunderoverskrift">Stall + geithus</h2>
     Dette er det einaste bygget på setra med to etasjar. Stallen er i fyrste etasje, geithuset i andre. Stallen og geithuset har vore viktige for drifta i Nordre Eldåseter. Stallen er nokså stor, og her har det vore plass til fem hestar på same tid. Hesten var avgjerande for drifta og særleg transporten mellom gard og seter, og han var alltid i bruk til skogsarbeid. Det var bruk for ein stall her heile året rundt.
     <br><br>
     I geithuset hadde ein geit, og ikkje mykje meir. Dette er dyr som fungerar særs godt til beitepleie, men dei gjev òg kjøt og mjølk til ost. Kombinasjonen av ku, geit og hest er veldig heldig for beitet i området, då  ei ulike dyra foretrekk ulike vekstar, og på ulike stadie av vekstsyklusen til plantene. Ein kan kombinera dette for å alltid ha nokre beitedyr som et det som vekst på det aktuelle tidspunktet. Roterar ein områda dei ulike dyra beitar på, får ein dei mest matfornøgde dyra og det jevnaste beitetrykket.
@@ -112,7 +117,7 @@ GRUPPE: NORDRE-ELDÅSETER
 <hr>
 
 <div class="enkeltprosjekt-informasjon">
-    <h2 class="enkeltprosjekt-underunderoverskrift">VINTERSTUGU</h2>
+    <h2 class="enkeltprosjekt-underunderoverskrift">Vinterstugu</h2>
     Vinterstugu var eit spesielt bygg som er gjort for å tene eit enkelt formål: å halde varmen i ei kort periode på vinteren. Huset er lite, knapt 16m², har peis med pipe, er lafta og kledd på utsida. Dette for at ein enklare skal kunne fyre opp på vinterstid, då ein reiste på setra for å hente fôr ein hadde slått om somaren. Setrene kunne ha låvar eller høyløer, der dei lagra og tørka graset dei slo om sumaren. Ein brukte gjerne ein dag eller to på å køyre med hest inn til sumarsetra, så låg ein der ei natt før ein reiste attende til garden med ein slede full av høy. Då var det viktig med ein plass å vera, og selet var alt for stort for eit så lite opphald. Då brukte ein berre stallen og vinterstugu.
 </div>
 {% include klynge-start.html %}
@@ -129,10 +134,10 @@ GRUPPE: NORDRE-ELDÅSETER
 <hr>
 
 <div class="enkeltprosjekt-informasjon">
-    <h2 class="enkeltprosjekt-underunderoverskrift">YMSE</h2>
+    <h2 class="enkeltprosjekt-underunderoverskrift">Ymse</h2>
     Dei tidlegare brukarane av setra har reparert og satt i stand det ein meinte ein trongde, akkurat slik som ein held på i dag. Det kan vera vanskeleg å sjå kva folk i framtida finn interessant. På denne plassen er dører, vindauge og lknande sporadisk teke vare på. Noko av dette har eg registrert, både med teikning og fotografi.
 </div>
-<h3>DØRER</h3>
+<h3>Dører</h3>
 {% include klynge-start.html %}
     {% include enkeltprosjekt-bilete.html   img="DØR 1 - A3L" figcap="Krysspostdør frå selet, truleg brukt mellom gamal gang og stove." %}
     {% include enkeltprosjekt-bilete.html   img="DØR 2 - A3L" figcap="Labankdør, truleg brukt som ytterdør i selet." %}

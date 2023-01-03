@@ -1,0 +1,21 @@
+.demos {
+    text-align: center;
+    margin-top: 20px;
+    width: 490px;
+    margin: auto;
+}  
+.bilete-fullskjerm {
+    cursor: url("plus_cursor.png") 25 25, auto;
+    display: inline-block;
+    background-size: contain;
+    max-width: 100%;
+    max-height: 100%;
+    background-position: 50% 50%;
+}
+.demo-image.first {
+    background-image: url("http://tholman.com/intense-images/img/h1_small.jpg");
+}
+.demo-image.second {
+    background-position: 50% 10%;
+    background-image: url("https://placeimg.com/1200/900/arch?t=1672744151419");
+}
