@@ -1,0 +1,81 @@
+{%- include head.html -%}
+{%- include header.html -%}
+
+<body>
+  <main>
+    <div class="behaldar-enkeltprosjekt">
+
+      <section class="enkeltprosjekt-informasjon">
+        <h1 class="enkeltprosjekt-tittel">{{ page.TITTEL }}</h1>
+        <h2 class="enkeltprosjekt-undertittel">{{ page.UNDERTITTEL }}</h2>
+        <br>
+        <ul class="enkeltprosjekt-informasjon-liste">
+          <li>
+            <em class="enkeltprosjekt-tekst-trykk">Kva:
+            </em>
+            {{ page.KVA }}</li>
+          <li>
+            <em class="enkeltprosjekt-tekst-trykk">Kvar:
+            </em>
+            {{ page.KVAR }}</li>
+          <li>
+            <em class="enkeltprosjekt-tekst-trykk">Kategori:
+            </em>
+            {{ page.KATEGORI }}</li>
+          <li>
+            <em class="enkeltprosjekt-tekst-trykk">Når:
+            </em>
+            {{ page.NAAR }}</li>
+        </ul>
+        <br> <br>
+        <h2 class="enkeltprosjekt-underoverskrift">Kva er dette?</h1>
+        <br>
+        <p class="enkeltprosjekt-tekst-200">
+          {{ page.TEKST200 }}
+        </p>
+        <br><br>
+      </section>
+
+      <section class="enkeltprosjekt-bilete">
+        {{- content -}}
+      </section>
+        
+      
+      <section class="credits">
+        <ul class="enkeltprosjekt-informasjon-liste">
+          <li>
+            <em class="enkeltprosjekt-tekst-trykk">Posisjon: </em>
+            <a href="{{ page.POSISJONSLENKJE | absolute_url }}">{{ page.POSISJON }}</a>
+          </li>
+          <li>
+            <em class="enkeltprosjekt-tekst-trykk">Arkitekt:</em>
+            {% for medverkande in page.ARKITEKT %}
+              <li class="enkeltprosjekt-informasjon-liste-medverknad">
+                {{ medverkande }}
+              </li>
+            {% endfor %}
+          </li>
+          <li>
+            <em class="enkeltprosjekt-tekst-trykk">Fotokreditt: </em>
+            <a href="{{ page.FOTOLENKJE | absolute_url }}">{{ page.FOTO }}</a>
+          </li>
+        </ul>
+      </section>
+
+      {% if page.GRUPPE %}
+        {% include sysken.html %}
+      {% endif %}
+              
+    </div>
+  </main>
+</body>
+
+<!-- intense.js for å få bilete i fullskjerm -->
+<script>
+  window.onload = function() {
+    var elements = document.querySelectorAll( '.bilete-fullskjerm' ); // klassenamn i html og css
+    Intense( elements );
+  }
+</script>
+
+{%- include footer.html -%}

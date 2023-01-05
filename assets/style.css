@@ -170,13 +170,13 @@ footer {
 /* ----- OMTALA ----- */
 
 .landingsside-omtala {
-    padding: 1rem;
+    /* padding: 1rem; */
     margin: 1rem auto 3rem;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 1rem;
-    background-color: var(--bakgrunn-lys-var3);
-    border-radius: 0.5rem;
+    /* background-color: var(--bakgrunn-lys-var3); */
+    /* border-radius: 0.5rem; */
 }
 .landingsside-omtala-figur {
     background-color: inherit;
