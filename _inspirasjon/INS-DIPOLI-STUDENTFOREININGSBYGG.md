@@ -9,13 +9,16 @@ KVAR: "Dipoli, Otakaari 24, 02150 Espoo, Finland."
 KATEGORI: "Store bygg, modernisme."
 NAAR: 1961-1966
 TEKST200: "---"
-POSISJON: "60.185000, 24.832500"
-POSISJONSLENKJE: https://goo.gl/maps/mULnaT54TztvCiDdA
+
+ARKITEKTKONTOR: Raili and Reima Pietilä
 ARKITEKT:
  - Raili Pietilä
  - Reima Paatelainen / Pietilä
-FOTO: archineering
+FOTO: archineering (reddit)
 FOTOLENKJE: https://old.reddit.com/r/ModernistArchitecture/comments/zuk06r/dipoli_student_union_building_otaniemi_finland/
+POSISJON: "60.185000, 24.832500"
+POSISJONSLENKJE: https://goo.gl/maps/mULnaT54TztvCiDdA
+
 PRIORITET: 6
 OMTALA: false
 ---

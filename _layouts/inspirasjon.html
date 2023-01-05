@@ -43,10 +43,14 @@
       
       <section class="credits">
         <ul class="enkeltprosjekt-informasjon-liste">
-          <li>
-            <em class="enkeltprosjekt-tekst-trykk">Posisjon: </em>
-            <a href="{{ page.POSISJONSLENKJE | absolute_url }}">{{ page.POSISJON }}</a>
-          </li>
+          
+          {% if page.ARKITEKTKONTOR %}
+            <li>
+              <em class="enkeltprosjekt-tekst-trykk">Arkitektkontor:</em>
+              {{ page.ARKITEKTKONTOR }}
+            </li>
+          {% endif %}
+          
           <li>
             <em class="enkeltprosjekt-tekst-trykk">Arkitekt:</em>
             {% for medverkande in page.ARKITEKT %}
@@ -55,10 +59,18 @@
               </li>
             {% endfor %}
           </li>
+
           <li>
             <em class="enkeltprosjekt-tekst-trykk">Fotokreditt: </em>
             <a href="{{ page.FOTOLENKJE | absolute_url }}">{{ page.FOTO }}</a>
           </li>
+
+          <li>
+            <em class="enkeltprosjekt-tekst-trykk">Posisjon: </em>
+            <a href="{{ page.POSISJONSLENKJE | absolute_url }}">{{ page.POSISJON }}</a>
+          </li>
+
+          
         </ul>
       </section>
 
