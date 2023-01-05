@@ -1,4 +1,4 @@
-"DAK / CAD": 
+"DAK / CAD / BIM": 
 - programvare: Rhinoceros
   prosent: 90
 - programvare: ArchiCAD
@@ -15,24 +15,30 @@
 - programvare: Grasshopper
   prosent: 55
 - programvare: Blender
+  prosent: 20
+- programvare: MeshLab
+  prosent: 15
+- programvare: Meshroom
   prosent: 15
 "GIS & kart":
 - programvare: QGIS
-  prosent: 50
+  prosent: 55
 - programvare: ArcGIS
   prosent: 40
 "Bilete & -handsaming":
 - programvare: Photoshop
-  prosent: 65
+  prosent: 70
 - programvare: Illustrator
   prosent: 40
 "Rendering & gjengjeving":
 - programvare: V-Ray
-  prosent: 80
+  prosent: 85
 - programvare: Lumion
-  prosent: 60
+  prosent: 65
 - programvare: TwinMotion
-  prosent: 40
+  prosent: 45
 "Design & layout":
 - programvare: InDesign
   prosent: 60
+- programvare: Balsamiq Wireframes
+  prosent: 20
