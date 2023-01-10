@@ -36,9 +36,9 @@ GRUPPE: COR+E
 {% include enkeltprosjekt-bilete.html   img="Facade 1-200"                  figcap="Fasadeteikning, frå vest." %}
 {% include enkeltprosjekt-bilete.html   img="Section B-B 1-200"             figcap="Situasjonssnitt av taklandsby." %}
 {% include enkeltprosjekt-bilete.html   img="Section A-A 1-200"             figcap="Situasjonssnitt av taklandsby." %}
-{% include enkeltprosjekt-bilete.html   img="FINAL FASADE PLZ"              figcap="Fugleperspektiv av fasadar." %}
-{% include enkeltprosjekt-bilete.html   img="INTERIOR FINAL THISONE"        figcap="Interiør frå ein POD+E." %}
-{% include enkeltprosjekt-bilete.html   img="interior render final"         figcap="Interiør frå ein POD+E." %}
+{% include enkeltprosjekt-bilete.html   img="FINAL FASADE PLZ_RED"              figcap="Fugleperspektiv av fasadar." %}
+{% include enkeltprosjekt-bilete.html   img="INTERIOR FINAL THISONE_RED"        figcap="Interiør frå ein POD+E." %}
+{% include enkeltprosjekt-bilete.html   img="interior render final_RED"         figcap="Interiør frå ein POD+E." %}
 {% include enkeltprosjekt-bilete.html   img="POD+E 1.50 Iso E"              figcap="Snittmodell av POD+E." %}
 {% include enkeltprosjekt-bilete.html   img="POD+E 1.50 Plan"               figcap="Planteikning av POD+E." %}
 {% include enkeltprosjekt-bilete.html   img="POD+E 1.50 Section A"          figcap="Snitteikning av POD+E." %}

@@ -35,5 +35,5 @@ GRUPPE: COR+E
 {% include enkeltprosjekt-bilete.html   img="terrasce roof final"               figcap="Utsikt frå veranda utanfor alle boligane." %}
 {% include enkeltprosjekt-bilete.html   img="Diagrammer 2.0 1-100 A3"           figcap="Diagram av rom i COR+E. Kan slåast saman til to." %}
 {% include enkeltprosjekt-bilete.html   img="Finished Plans and sections 1-50"  figcap="Snitteikning og planteikning av COR+E i enkeltmodell." %}
-{% include enkeltprosjekt-bilete.html   img="view from above, noise"            figcap="Innendørs gjengjeving." %}
-{% include enkeltprosjekt-bilete.html   img="view from kitchen table, noise"    figcap="Innendørs gjengjeving." %}
+{% include enkeltprosjekt-bilete.html   img="view from above, noise_RED"            figcap="Innendørs gjengjeving." %}
+{% include enkeltprosjekt-bilete.html   img="view from kitchen table, noise_RED"    figcap="Innendørs gjengjeving." %}
