@@ -23,6 +23,9 @@ MEDVERKNAD:
 PRIORITET: 10
 OMTALA: false
 GRUPPE: BRISTOL-CONDITORI
+
+
+GALLERI-KATEGORI: ARK
 ---
 {% include enkeltprosjekt-bilete.html   img="AXO SØ 05" figcap="Snittmodell, frå søraust." %}
 {% include klynge-start.html %}

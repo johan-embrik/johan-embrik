@@ -21,6 +21,8 @@ MEDVERKNAD:
 PRIORITET: 2
 OMTALA: true
 GRUPPE: NORDRE-ELDÅSETER
+
+GALLERI-KATEGORI: ARK
 ---
 {% include enkeltprosjekt-bilete.html   img="SITUASJONSPLAN 1-500 A1L - RED"    figcap="Situasjonsplan av Nordre Eldåseter. Nytt laughus og ny driftsbygning." %}
 

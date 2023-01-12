@@ -15,6 +15,7 @@ permalink: /prosjekt
 
           <figure class="prosjekt-galleri-figur">
             <a class="prosjekt-galleri-figur-lenkje" href="{{ prosjekt.url | relative_url }}">
+              <div class="prosjekt-galleri-figur-kategoritekst">{{ prosjekt.GALLERI-KATEGORI }}</div>
               <img class="prosjekt-galleri-figur-bilete" src="{{ prosjekt.slug | prepend: '/assets/images/' | append: '/WEBP/COVER.webp' | relative_url }}" srcset="" alt="{{ prosjekt.TITTEL }}" loading="lazy">
               <figcaption class="prosjekt-galleri-figur-undertekst">
                 <h2 class="prosjekt-galleri-figur-undertekst-tittel">{{ prosjekt.TITTEL }}</h2>

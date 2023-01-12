@@ -17,5 +17,7 @@ MEDVERKNAD:
 - Johan-Embrik Dalseg
 PRIORITET: 10
 OMTALA: false
+
+GALLERI-KATEGORI: GIS
 ---
 {% include enkeltprosjekt-bilete.html img="SF_Slope_1-150000" figcap="" %}

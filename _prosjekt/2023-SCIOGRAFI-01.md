@@ -18,6 +18,8 @@ MEDVERKNAD:
 - Johan-Embrik Dalseg
 PRIORITET: 12
 OMTALA: false
+
+GALLERI-KATEGORI: HOB
 ---
 {% include enkeltprosjekt-bilete.html img="Layout 06" figcap="" %}
 {% include enkeltprosjekt-bilete.html img="Å01" figcap="" %}

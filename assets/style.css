@@ -263,6 +263,22 @@ h3 {
     opacity: 100%;
     filter: none;
 }
+.prosjekt-galleri-figur-kategoritekst {
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+    background: var(--farge1);
+    color: var(--bakgrunn-lys);
+    padding: 0.2rem;
+    margin: 0.5rem;
+    border-radius: 0.5rem 0.2rem 0.5rem 0.2rem;
+    -webkit-transition: visibility 0.3s ease-in-out, opacity 0.3s ease-in-out; 
+    transition: visibility 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+.prosjekt-galleri-figur-lenkje:hover .prosjekt-galleri-figur-kategoritekst {
+    visibility: visible;
+    opacity: 0.75; 
+}
 .prosjekt-galleri-figur-bilete {
     object-fit: cover;
     overflow: hidden;

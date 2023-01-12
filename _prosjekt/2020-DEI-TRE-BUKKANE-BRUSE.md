@@ -26,6 +26,8 @@ MEDVERKNAD:
  - Gjermund Halsa Øyri
 PRIORITET: 6
 OMTALA: false
+
+GALLERI-KATEGORI: ARK
 ---
 {% include enkeltprosjekt-bilete.html   img="HOVED"                                                             figcap="Boligtårn, monument og bibliotek sett frå parken frå aust." %}
 {% include enkeltprosjekt-bilete.html   img="Ø2_prosjekthefte 10"                                               figcap="Planteikning, gateplan." %}

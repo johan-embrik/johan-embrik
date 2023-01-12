@@ -24,6 +24,8 @@ MEDVERKNAD:
  - Sondre Stensheim Jørgensen
 PRIORITET: 5
 OMTALA: false
+
+GALLERI-KATEGORI: ARK
 ---
 {% include enkeltprosjekt-bilete.html   img="Jørgensen_Sondre_Dalseg_Johan-Embrik 1"    figcap="Situasjonsplan av Storvika." %}
 {% include enkeltprosjekt-bilete.html   img="Jørgensen_Sondre_Dalseg_Johan-Embrik 7"    figcap="Planteikning av overnattingshytta Bergveggen." %}

@@ -17,6 +17,7 @@ MEDVERKNAD:
 - Johan-Embrik Dalseg
 PRIORITET: 5
 OMTALA: false
+GALLERI-KATEGORI: GIS
 ---
 {% include enkeltprosjekt-bilete.html img="04-Rondane_virtual" figcap="" %}
 {% include enkeltprosjekt-bilete.html img="05-Rondane_contours" figcap="" %}

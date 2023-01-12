@@ -20,6 +20,8 @@ MEDVERKNAD:
 PRIORITET: 4
 OMTALA: true
 GRUPPE: VISUALISERING
+
+GALLERI-KATEGORI: VIS
 ---
 {% include enkeltprosjekt-bilete.html   img="INT_A_001_RED"     figcap="" %}
 {% include enkeltprosjekt-bilete.html   img="INT_D_001_RED ZIP" figcap="" %}
