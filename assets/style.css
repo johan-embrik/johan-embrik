@@ -332,6 +332,9 @@ h3 {
 .enkeltprosjekt-tekst-200 {
     max-width: 100%;
 }
+.tekst-liten {
+    font-size: 0.7rem;
+}
 .enkeltprosjekt-underoverskrift {
     font-weight: bolder;
 }
