@@ -20,22 +20,22 @@ PRIORITET: 12
 OMTALA: false
 ---
 {% include enkeltprosjekt-bilete.html img="Layout 06" figcap="" %}
-{% include enkeltprosjekt-bilete.html img="Å 01" figcap="" %}
+{% include enkeltprosjekt-bilete.html img="Å01" figcap="" %}
 <!-- 
-{% include enkeltprosjekt-bilete.html img="A 03" figcap="" %}
-{% include enkeltprosjekt-bilete.html img="B 01" figcap="" %}
-{% include enkeltprosjekt-bilete.html img="C 01" figcap="" %}
-{% include enkeltprosjekt-bilete.html img="D 01" figcap="" %}
-{% include enkeltprosjekt-bilete.html img="E 01" figcap="" %}
-{% include enkeltprosjekt-bilete.html img="F 01" figcap="" %}
-{% include enkeltprosjekt-bilete.html img="G 01" figcap="" %}
-{% include enkeltprosjekt-bilete.html img="H 01" figcap="" %}
-{% include enkeltprosjekt-bilete.html img="I 01" figcap="" %}
-{% include enkeltprosjekt-bilete.html img="J 01" figcap="" %}
-{% include enkeltprosjekt-bilete.html img="K 01" figcap="" %}
-{% include enkeltprosjekt-bilete.html img="L 01" figcap="" %}
-{% include enkeltprosjekt-bilete.html img="M 01" figcap="" %}
-{% include enkeltprosjekt-bilete.html img="N 01" figcap="" %}
-{% include enkeltprosjekt-bilete.html img="O 01" figcap="" %}
-{% include enkeltprosjekt-bilete.html img="P 01" figcap="" %}
+{% include enkeltprosjekt-bilete.html img="A03" figcap="" %}
+{% include enkeltprosjekt-bilete.html img="B01" figcap="" %}
+{% include enkeltprosjekt-bilete.html img="C01" figcap="" %}
+{% include enkeltprosjekt-bilete.html img="D01" figcap="" %}
+{% include enkeltprosjekt-bilete.html img="E01" figcap="" %}
+{% include enkeltprosjekt-bilete.html img="F01" figcap="" %}
+{% include enkeltprosjekt-bilete.html img="G01" figcap="" %}
+{% include enkeltprosjekt-bilete.html img="H01" figcap="" %}
+{% include enkeltprosjekt-bilete.html img="I01" figcap="" %}
+{% include enkeltprosjekt-bilete.html img="J01" figcap="" %}
+{% include enkeltprosjekt-bilete.html img="K01" figcap="" %}
+{% include enkeltprosjekt-bilete.html img="L01" figcap="" %}
+{% include enkeltprosjekt-bilete.html img="M01" figcap="" %}
+{% include enkeltprosjekt-bilete.html img="N01" figcap="" %}
+{% include enkeltprosjekt-bilete.html img="O01" figcap="" %}
+{% include enkeltprosjekt-bilete.html img="P01" figcap="" %}
  -->

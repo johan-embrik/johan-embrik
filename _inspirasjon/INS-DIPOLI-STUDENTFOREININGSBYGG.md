@@ -19,6 +19,8 @@ FOTOLENKJE: https://old.reddit.com/r/ModernistArchitecture/comments/zuk06r/dipol
 POSISJON: "60.185000, 24.832500"
 POSISJONSLENKJE: https://goo.gl/maps/mULnaT54TztvCiDdA
 
+KJELDE: https://old.reddit.com/r/ModernistArchitecture/comments/zuk06r/dipoli_student_union_building_otaniemi_finland/
+
 PRIORITET: 6
 OMTALA: false
 ---
