@@ -32,7 +32,7 @@ GRUPPE: COR+E
 
 GALLERI-KATEGORI: ARK
 ---
-{% include enkeltprosjekt-bilete.html   img="City analysis Map"                 figcap="Kart over Trondheim. Aktuelle takplann å byggje på." %}
+{% include enkeltprosjekt-bilete.html   img="City analysis Map"                 figcap="Kart over Trondheim. Aktuelle takplan å byggje på." %}
 {% include enkeltprosjekt-bilete.html   img="Roof+E Plan 1.200"                 figcap="Situasjonsplan av taklandsby, ROOF+E, beståande av COR+E." %}
 {% include enkeltprosjekt-bilete.html   img="terrasce roof final"               figcap="Utsikt frå veranda utanfor alle boligane." %}
 {% include enkeltprosjekt-bilete.html   img="Diagrammer 2.0 1-100 A3"           figcap="Diagram av rom i COR+E. Kan slåast saman til to." %}

@@ -201,11 +201,14 @@ var Intense = (function() {
       position: "fixed",
       bottom: "0px",
       left: "0px",
-      padding: "20px",
+      padding: "1rem",
       color: "#fff",
       wordSpacing: "0.2px",
       webkitFontSmoothing: "antialiased",
-      textShadow: "-1px 0px 1px rgba(0,0,0,0.4)"
+      textShadow: "-1px 0px 1px rgba(0,0,0,0.4)",
+      'backdrop-filter': "blur(2px)",
+      '-webkit-backdrop-filter': "blur(2px)",
+      'border-radius': "0.5rem"
     };
     var captionContainer = document.createElement("figcaption");
     applyProperties(captionContainer, captionContainerProperties);

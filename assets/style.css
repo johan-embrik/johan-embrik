@@ -267,8 +267,10 @@ h3 {
     position: absolute;
     opacity: 0;
     visibility: hidden;
-    background: var(--farge1);
-    color: var(--bakgrunn-lys);
+    /* background: var(--farge1); */
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    color: var(--farge5);
     padding: 0.2rem;
     margin: 0.5rem;
     border-radius: 0.5rem 0.2rem 0.5rem 0.2rem;
@@ -277,7 +279,7 @@ h3 {
 }
 .prosjekt-galleri-figur-lenkje:hover .prosjekt-galleri-figur-kategoritekst {
     visibility: visible;
-    opacity: 0.75; 
+    opacity: 1; 
 }
 .prosjekt-galleri-figur-bilete {
     object-fit: cover;
