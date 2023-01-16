@@ -4,7 +4,7 @@ category: enkeltprosjekt
 collection: enkeltprosjekt
 TITTEL: "Sciografi 01"
 UNDERTITTEL: "Skuggestudium og leik."
-KVA: "Modell av ein lystest."
+KVA: "Modell av ein lys- og skuggetest."
 KVAR: "Fiktivt."
 KATEGORI: "Studier, skuggar, sciografi."
 NAAR: 2023
@@ -23,7 +23,8 @@ GALLERI-KATEGORI: HOB
 ---
 {% include enkeltprosjekt-bilete.html img="Layout 06" figcap="" %}
 {% include enkeltprosjekt-bilete.html img="Å01" figcap="" %}
-<!-- 
+
+{% include klynge-start.html %}
 {% include enkeltprosjekt-bilete.html img="A03" figcap="" %}
 {% include enkeltprosjekt-bilete.html img="B01" figcap="" %}
 {% include enkeltprosjekt-bilete.html img="C01" figcap="" %}
@@ -40,4 +41,4 @@ GALLERI-KATEGORI: HOB
 {% include enkeltprosjekt-bilete.html img="N01" figcap="" %}
 {% include enkeltprosjekt-bilete.html img="O01" figcap="" %}
 {% include enkeltprosjekt-bilete.html img="P01" figcap="" %}
- -->
+{% include div-lukk.html %}

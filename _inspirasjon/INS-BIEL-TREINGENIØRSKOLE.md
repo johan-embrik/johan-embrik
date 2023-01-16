@@ -33,7 +33,11 @@ OMTALA: false
 {% include enkeltprosjekt-bilete.html   img="SWISS-SCHOOL-OF-ENGINEERING-FOR-THE-WOOD-INDUSTRY-SAT-2" figcap="" %}
 {% include div-lukk.html %}
 
+{% include klynge-start.html %}
 {% include enkeltprosjekt-bilete.html   img="SWISS-SCHOOL-OF-ENGINEERING-FOR-THE-WOOD-INDUSTRY-GPH-1" figcap="" %}
+{% include enkeltprosjekt-bilete.html   img="SWISS-SCHOOL-OF-ENGINEERING-FOR-THE-WOOD-INDUSTRY-IMG-1" figcap="" %}
+{% include div-lukk.html %}
+
 {% include enkeltprosjekt-bilete.html   img="SWISS-SCHOOL-OF-ENGINEERING-FOR-THE-WOOD-INDUSTRY-GPH-2" figcap="" %}
 {% include enkeltprosjekt-bilete.html   img="SWISS-SCHOOL-OF-ENGINEERING-FOR-THE-WOOD-INDUSTRY-GPH-3" figcap="" %}
 {% include enkeltprosjekt-bilete.html   img="SWISS-SCHOOL-OF-ENGINEERING-FOR-THE-WOOD-INDUSTRY-GPH-4" figcap="" %}
@@ -46,8 +50,6 @@ OMTALA: false
 {% include enkeltprosjekt-bilete.html   img="SWISS-SCHOOL-OF-ENGINEERING-FOR-THE-WOOD-INDUSTRY-GPH-12" figcap="" %}
 {% include enkeltprosjekt-bilete.html   img="SWISS-SCHOOL-OF-ENGINEERING-FOR-THE-WOOD-INDUSTRY-GPH-13" figcap="" %}
 {% include div-lukk.html %}
-
-{% include enkeltprosjekt-bilete.html   img="SWISS-SCHOOL-OF-ENGINEERING-FOR-THE-WOOD-INDUSTRY-IMG-1" figcap="" %}
 
 {% include klynge-start.html %}
 {% include enkeltprosjekt-bilete.html   img="SWISS-SCHOOL-OF-ENGINEERING-FOR-THE-WOOD-INDUSTRY-MOD-1" figcap="" %}

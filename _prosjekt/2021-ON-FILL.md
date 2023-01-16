@@ -25,7 +25,7 @@ MEDVERKNAD:
 - Jacob Anke
 - Olav Haugen
 - Maren Engvik
-PRIORITET: 12
+PRIORITET: 13
 OMTALA: false
 SYSKEN:
 - 2021-CIT+E-ROOF+E-COR+E
