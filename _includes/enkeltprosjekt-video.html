@@ -1,0 +1,12 @@
+{% assign img = include.img %}
+{%- assign lenkje1a = page.name | replace: '.md', '' -%}
+{%- assign lenkje1b = page.slug -%}
+{%- assign lenkje2 = lenkje1b | prepend: '/assets/images/' | append: '/WEBM/' -%}
+{%- assign lenkje3 = lenkje2 | append: {{img}} | append: '.webm'  -%}
+
+<figure class="enkeltprosjekt-figur">
+  <video width="100%" height="auto" controls muted>
+    <source src="{{ lenkje3 | relative_url }}" type="video/webm" />
+  </video>
+  <figcaption style="padding: 1rem 3rem 0rem 3rem;" class="enkeltprosjekt-bilete-undertekst">{{ include.figcap }}</figcaption>
+</figure>

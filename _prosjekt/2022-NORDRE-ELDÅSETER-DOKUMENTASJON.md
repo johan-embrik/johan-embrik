@@ -56,6 +56,7 @@ GALLERI-KATEGORI: DOK
     {% include enkeltprosjekt-bilete.html   img="SEL AKSONOMETRI B" figcap="Punktsky, aksionometri. Sel. Sett frå søraust." %}
 {% include div-lukk.html %}
 
+{% include enkeltprosjekt-bilete.html   img="SEL-Langsnitt-A_02" figcap="Punktsky, langsnitt. Sel." %}
 {% include enkeltprosjekt-bilete.html   img="SEL - PLAN - 1-50 - A1L"  figcap="Planteikning av selet." %}
 {% include enkeltprosjekt-bilete.html   img="SEL - FASADE SØRVEST - 1-50 - A1L - RED"  figcap="Fasadeteikning av selet, sett frå sørvest." %}
 {% include enkeltprosjekt-bilete.html   img="SEL - FASADE SØRAUST - 1-50 - A1L"  figcap="Fasadeteikning av selet, sett frå søraust." %}
@@ -86,6 +87,7 @@ GALLERI-KATEGORI: DOK
     {% include enkeltprosjekt-bilete.html   img="FJOS AKSONOMETRI A" figcap="Punktsky, aksionometri. Fjos. Sett frå søraust." %}
 {% include div-lukk.html %}
 
+{% include enkeltprosjekt-bilete.html   img="FJOS-Langsnitt-A_02" figcap="Punktsky, langsnitt. Fjos." %}
 {% include enkeltprosjekt-bilete.html   img="FJOS - PLAN - 1-50 - A1L - RED"  figcap="Planteikning av fjoset." %}
 {% include enkeltprosjekt-bilete.html   img="FJOS - FASADE SØRAUST - 1-50 - A1L - RED"  figcap="Fasadeteikning av fjoset, sett frå søraust." %}
 {% include enkeltprosjekt-bilete.html   img="FJOS - LANGSNITT - 1-50 - A1L"  figcap="Snitteikning av fjoset, sett frå søraust." %}
@@ -109,6 +111,7 @@ GALLERI-KATEGORI: DOK
     {% include enkeltprosjekt-bilete.html   img="STALL+GEITHUS AKSONOMETRI A" figcap="Punktsky, aksionometri. Stall og geithus. Sett frå søraust." %}
 {% include div-lukk.html %}
 
+{% include enkeltprosjekt-bilete.html   img="STALL+GEITHUS-Langsnitt-A_02" figcap="Punktsky, langsnitt. Stall og geithus." %}
 {% include enkeltprosjekt-bilete.html   img="STALL - PLAN- 1-50 - A1L"   figcap="Plan, stall, 1. etasje." %}
 {% include enkeltprosjekt-bilete.html   img="GEITHUS - PLAN- 1-50 - A1L"   figcap="Plan, geithus, 2. etasje." %}
 {% include enkeltprosjekt-bilete.html   img="STALL+GEITHUS - FASADE NORDAUST - 1-50 - A1L"   figcap="Stall og geithus, fasade, sett frå nordaust." %}
@@ -127,6 +130,7 @@ GALLERI-KATEGORI: DOK
     {% include enkeltprosjekt-bilete.html   img="VINTERSTUGU AKSONOMETRI B 02" figcap="Punktsky, aksionometri. Vinterstugu. Sett frå søraust." %}
 {% include div-lukk.html %}
 
+{% include enkeltprosjekt-bilete.html   img="VINTERSTUGU-Langsnitt-A_02" figcap="Punktsky, langsnitt. Vinterstugu." %}
 {% include enkeltprosjekt-bilete.html   img="VINTERSTUGU - PLAN - 1-50 - A1L"   figcap="Planteikning av vinterstugu." %}
 {% include enkeltprosjekt-bilete.html   img="VINTERSTUGU - FASADE NORDAUST - 1-50 - A1L"   figcap="Fasadeteikning av vinterstugu, sett frå nordaust." %}
 {% include enkeltprosjekt-bilete.html   img="VINTERSTUGU - FASADE NORDVEST - 1-50 - A1L"   figcap="Fasadeteikning av vinterstugu, sett frå nordvest." %}
