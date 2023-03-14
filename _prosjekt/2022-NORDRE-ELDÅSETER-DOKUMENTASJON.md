@@ -140,10 +140,9 @@ GALLERI-KATEGORI: DOK
 <hr>
 
 <div class="enkeltprosjekt-informasjon">
-    <h2 class="enkeltprosjekt-underunderoverskrift">Ymse</h2>
+    <h2 class="enkeltprosjekt-underunderoverskrift">Dører, vindauge og detaljar.</h2>
     Dei tidlegare brukarane av setra har reparert og satt i stand det ein meinte ein trongde, akkurat slik som ein held på i dag. Det kan vera vanskeleg å sjå kva folk i framtida finn interessant. På denne plassen er dører, vindauge og lknande sporadisk teke vare på. Noko av dette har eg registrert, både med teikning og fotografi.
 </div>
-<h3>Dører</h3>
 {% include klynge-start.html %}
     {% include enkeltprosjekt-bilete.html   img="DØR 1 - A3L" figcap="Krysspostdør frå selet, truleg brukt mellom gamal gang og stove." %}
     {% include enkeltprosjekt-bilete.html   img="DØR 2 - A3L" figcap="Labankdør, truleg brukt som ytterdør i selet." %}
@@ -151,10 +150,14 @@ GALLERI-KATEGORI: DOK
     {% include enkeltprosjekt-bilete.html   img="DØR 4 - A3L - RED" figcap="Enkel labankdør som moglegens er frå stallen." %}
 {% include div-lukk.html %}
 
-<!--
-<h3>VINDAUGE</h3>
+<hr>
+
+
 {% include klynge-start.html %}
-    {% include enkeltprosjekt-bilete.html   img="DØR 4 - A3L - RED" figcap="VINDAUGE 1" %}
-    {% include enkeltprosjekt-bilete.html   img="DØR 4 - A3L - RED" figcap="VINDAUGE 2" %}
+<section class="om-meg-dokument">
+    <h2 class="brødtekst-underoverskrift">Andre dokument.</h2>
+    <h3 style="padding: 2rem 0 1rem 0;">
+        <a href="{{ '/assets/vedlegg/NORDRE ELDÅSETER - HEFTE - OPPMÅLING - A3P - OPPSLAG.pdf' | relative_url }}">Oppmålingshefte.</a>
+    </h3>
+</section>
 {% include div-lukk.html %}
--->

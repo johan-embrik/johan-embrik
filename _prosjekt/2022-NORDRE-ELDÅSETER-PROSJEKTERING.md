@@ -133,3 +133,15 @@ GALLERI-KATEGORI: ARK
     {% include enkeltprosjekt-bilete.html   img="VINTERSTUGU - SNITT, TVERR - DETALJ, TAK - 1-5 - A1L"  figcap="Detaljteikning, raft, vinterstugu." %}
     {% include enkeltprosjekt-bilete.html   img="VINTERSTUGU - SNITT, TVERR - DETALJ, VEGG - 1-5 - A3L"  figcap="Detaljteikning, golv, vinterstugu." %}
 {% include div-lukk.html %}
+
+<hr>
+
+
+{% include klynge-start.html %}
+<section class="om-meg-dokument">
+    <h2 class="brødtekst-underoverskrift">Andre dokument.</h2>
+    <h3 style="padding: 2rem 0 1rem 0;">
+        <a href="{{ '/assets/vedlegg/NORDRE ELDÅSETER - HEFTE - PROSJEKT - A3P - OPPSLAG.pdf' | relative_url }}">Prosjekteringshefte.</a>
+    </h3>
+</section>
+{% include div-lukk.html %}
